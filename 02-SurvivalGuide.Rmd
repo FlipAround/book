@@ -1,0 +1,22 @@
+# A 'survival guide' to MDSI {#Survival Guide}
+
+## Technology
+
+### Your UTS email:
+First and foremost you need to activate your UTS email address. All official communications from UTS, subject notifications, MDSI newsletters etc will be sent to this email address. You need to activate your email address before you can access other UTS systems.
+
+**Activate your UTS Student email:**
+ 
+ - Navigate to https://email.itd.uts.edu.au/webapps/myaccount/activation/ and follow the steps to activate your UTS student email account. 
+ - **Pro-tip:** If you don’t want to login frequently to check if you have mail, simply setup a email forwarding to an email address of your choice via the settings page after logging in.
+
+### Get your subject outlines:
+MDSI uses a variety of systems for online teaching and learning. UTSOnline and CICAround are the two primary environments for you to familiarise yourself with. 
+
+The first thing you need to do after activating your email address is to login to UTSOnline, access your subjects and find your subject outline. Your subject outline contains everything you need to know about your subject for the coming semester. It includes the contact information for your subject co-ordinator, important dates, assessment descriptions and much more. In most cases you can find the answer to any question you might have about your subject addressed in the subject outline.
+
+**Find your subject outlines in UTSOnline:**
+ 
+ - Login to UTSOnline at https://online.uts.edu.au/ using your student ID number and the password you setup for your UTS email account.
+ - Access your subjects by clicking on your subject name
+ - Download your subject outline by clicking on the link titled ‘Subject Outline’ in the left side menu, then click on the subject outline link on the page.

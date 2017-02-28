@@ -1,0 +1,51 @@
+--- 
+title: "FlipAround"
+author: "MDSI student community"
+#date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: fliparound/fliparound
+description: "This is a living document collaboratively authored by students in the Master of Data Science and Innovation course at UTS"
+---
+
+# Welcome
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-3nkUASxR0U?rel=0" frameborder="0" allowfullscreen></iframe>
+
+MDSI is unique in its approach and feel. MDSI is a ‘boutique degree’ which means we are a small tight-knit data family which means the contacts you walk out (really) knowing are going to be more valuable than the skills you learn. In terms of content, our point of difference is the innovation in our name. We take our innovation component as seriously as data science, and is ingrained in everything that’s taught. For us, a data science degree was our innovation (we were the first of its kind in Australia), and in the rapidly changing context that is data, the ability to innovate and adapt is a pretty great point of difference for you too.
+
+Data science is a collaborative discipline. Students in the MDSI program get hands on experience of working in teams to formulate and solve real-life data science problems. Most courses focus on techniques to solve problems, but spend very little time (if any) on how problems should be formulated. The MDSI program is structured in a way that helps students learn this tacit, but crucial skill.
+
+Another important aspect of data science is that it is a rapidly evolving field. A data scientist must therefore be able to stay current with developments in the field. The MDSI program, with its emphasis on critical self-learning, prepares students to be lifelong learners.
+
+Welcome, and good luck on your MDSI journey
+
+## Checklist of things to do
+
+Getting started on your MDSI journey can be somewhat overwhelming. So to help you ease into life as an MDSI student, the following checklist will help you to get up and running as painlessly as possible.
+
+  - Do your statistics pre-flight test
+  - Activate UTS student email
+  - Forwarded UTS student email if required
+  - Review Subject Outlines
+  - Activate and personalise CICAround
+  - Do your CLARA profile
+  - Log into Diigo
+  - Join the Slack Channel
+  - Log into Review
+  - Log into SPARK
+  - Test your Google Drive
+  - Test your Office 365 Drive
+  - Download R & R Studio
+  - Download Python & Rodeo
+  - Download Tableau
+  - Download KNIME
+  
+## Pre-flight tests
+
+MDSI statistics pre-flight test:
+http://www.uts.edu.au/future-students/analytics-and-data-science/essential-information/mdsi-statistics-pre-flight-test

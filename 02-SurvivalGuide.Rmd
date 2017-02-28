@@ -1,6 +1,6 @@
-# A 'survival guide' to MDSI {#Survival Guide}
+# A 'survival guide' to MDSI
 
-## Technology
+## First steps
 
 ### Your UTS email:
 First and foremost you need to activate your UTS email address. All official communications from UTS, subject notifications, MDSI newsletters etc will be sent to this email address. You need to activate your email address before you can access other UTS systems.
@@ -20,3 +20,36 @@ The first thing you need to do after activating your email address is to login t
  - Login to UTSOnline at https://online.uts.edu.au/ using your student ID number and the password you setup for your UTS email account.
  - Access your subjects by clicking on your subject name
  - Download your subject outline by clicking on the link titled ‘Subject Outline’ in the left side menu, then click on the subject outline link on the page.
+
+## Technology
+### Join the MDSI community:
+Your next stop should be CICAround. Here you will connect with your peers in an academic capacity. There are discussion forums for your subjects where you can post questions. CICAround most notably is where you will go to blog about your experiences throughout your MDSI journey. The first step is to activate your blog. Then you can browse through the blogs of your new MDSI family and read about their experiences and the things they have learnt.
+
+**Activate and personalise your CICAround profile:**
+ - Navigate to https://ca.uts.edu.au/using-ca/ 
+ - Watch the welcome video then login to CICAround using your student ID and password. 
+ - Put up your first CICAround Blog post
+
+### Join the MDSI chatter:
+Slack has proven to be a very useful tool so far. It is completely driven by the student community and is where the MDSI student community goes to socialise, organise BBQs, ask each other for technical help and share useful resources. If you need a quick answer, Slack is the place to go.
+
+**Join the Slack Channel**
+ - You can download the Slack application from https://slack.com/downloads 
+ - You can also get the app for IOS, Android and Windows phones.
+ - You do not need to pay for a subscription. 
+ - Signup to the MDSI group at: https://utsmdsi.slack.com/
+
+### Diigo
+A collection of resources contributed by the MDSI community. 
+
+**Join the Diigo group**
+ - simply create a Diigo account and request access. https://groups.diigo.com/group/cic_mdsi
+
+Frequently used search tags include:
+> “DSI,DAM,Data,big_data,case,studies,visualization,teaching_tools,statistics,stats-thnkg,privacy,Algorithms,ethicsVSD,realworldDM,video,Analytics,human-machine,history,data,mining,Data_science,cisco,r,IoE,TEDtalks,values,QSProject,Algorithmic,Accountability,industry,sociotechnical,systems,AI,podcast,professional_practice,portfolio,storytelling,bbc,QS,DMonline,innovation,humanismprofessional,development,open_data,speculative_futures,RealWorld,ted,transdisciplinarity,creativity,algorithm,sociotechnical,BowkerStar,futuresgender,challenge,data-sets,accountability,digital_futures,tools,DM,reading,DVN,equality,infographic”
+>
+
+### Review
+Review is an assessment tool that is used to mark your work, give you feedback about your work and for you to develop a sense of what is expected by marking your own work before it is assessed by teaching staff. 
+
+

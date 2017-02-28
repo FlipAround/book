@@ -9,7 +9,7 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
-      collapse: subsection
+      collapse: no
       scroll_highlight: yes
       before: |
         <li><a href="./">FlipAround</a></li>

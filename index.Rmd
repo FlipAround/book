@@ -14,8 +14,6 @@ description: "This is a living document collaboratively authored by students in 
 
 # Welcome
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-3nkUASxR0U?rel=0" frameborder="0" allowfullscreen></iframe>
-
 MDSI is unique in its approach and feel. MDSI is a ‘boutique degree’ which means we are a small tight-knit data family which means the contacts you walk out (really) knowing are going to be more valuable than the skills you learn. In terms of content, our point of difference is the innovation in our name. We take our innovation component as seriously as data science, and is ingrained in everything that’s taught. For us, a data science degree was our innovation (we were the first of its kind in Australia), and in the rapidly changing context that is data, the ability to innovate and adapt is a pretty great point of difference for you too.
 
 Data science is a collaborative discipline. Students in the MDSI program get hands on experience of working in teams to formulate and solve real-life data science problems. Most courses focus on techniques to solve problems, but spend very little time (if any) on how problems should be formulated. The MDSI program is structured in a way that helps students learn this tacit, but crucial skill.

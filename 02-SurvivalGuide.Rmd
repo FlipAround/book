@@ -8,7 +8,7 @@ First and foremost you need to activate your UTS email address. All official com
 **Activate your UTS Student email:**
  
  - Navigate to https://email.itd.uts.edu.au/webapps/myaccount/activation/ and follow the steps to activate your UTS student email account. 
- - **Pro-tip:** If you don’t want to login frequently to check if you have mail, simply setup a email forwarding to an email address of your choice via the settings page after logging in.
+ - ** Protip: ** If you don’t want to login frequently to check if you have mail, simply setup a email forwarding to an email address of your choice via the settings page after logging in.
 
 ### Get your subject outlines:
 MDSI uses a variety of systems for online teaching and learning. UTSOnline and CICAround are the two primary environments for you to familiarise yourself with. 
@@ -21,6 +21,8 @@ The first thing you need to do after activating your email address is to login t
  - Access your subjects by clicking on your subject name
  - Download your subject outline by clicking on the link titled ‘Subject Outline’ in the left side menu, then click on the subject outline link on the page.
 
+
+
 ## Technology
 ### Join the MDSI community:
 Your next stop should be CICAround. Here you will connect with your peers in an academic capacity. There are discussion forums for your subjects where you can post questions. CICAround most notably is where you will go to blog about your experiences throughout your MDSI journey. The first step is to activate your blog. Then you can browse through the blogs of your new MDSI family and read about their experiences and the things they have learnt.
@@ -29,6 +31,7 @@ Your next stop should be CICAround. Here you will connect with your peers in an 
  - Navigate to https://ca.uts.edu.au/using-ca/ 
  - Watch the welcome video then login to CICAround using your student ID and password. 
  - Put up your first CICAround Blog post
+
 
 ### Join the MDSI chatter:
 Slack has proven to be a very useful tool so far. It is completely driven by the student community and is where the MDSI student community goes to socialise, organise BBQs, ask each other for technical help and share useful resources. If you need a quick answer, Slack is the place to go.
@@ -39,6 +42,7 @@ Slack has proven to be a very useful tool so far. It is completely driven by the
  - You do not need to pay for a subscription. 
  - Signup to the MDSI group at: https://utsmdsi.slack.com/
 
+
 ### Diigo
 A collection of resources contributed by the MDSI community. 
 
@@ -46,10 +50,150 @@ A collection of resources contributed by the MDSI community.
  - simply create a Diigo account and request access. https://groups.diigo.com/group/cic_mdsi
 
 Frequently used search tags include:
-> “DSI,DAM,Data,big_data,case,studies,visualization,teaching_tools,statistics,stats-thnkg,privacy,Algorithms,ethicsVSD,realworldDM,video,Analytics,human-machine,history,data,mining,Data_science,cisco,r,IoE,TEDtalks,values,QSProject,Algorithmic,Accountability,industry,sociotechnical,systems,AI,podcast,professional_practice,portfolio,storytelling,bbc,QS,DMonline,innovation,humanismprofessional,development,open_data,speculative_futures,RealWorld,ted,transdisciplinarity,creativity,algorithm,sociotechnical,BowkerStar,futuresgender,challenge,data-sets,accountability,digital_futures,tools,DM,reading,DVN,equality,infographic”
+> _“DSI,DAM,Data,big_data,case,studies,visualization,teaching_tools,statistics,stats-thnkg,privacy,Algorithms,ethicsVSD,realworldDM,video,Analytics,human-machine,history,data,mining,Data_science,cisco,r,IoE,TEDtalks,values,QSProject,Algorithmic,Accountability,industry,sociotechnical,systems,AI,podcast,professional_practice,portfolio,storytelling,bbc,QS,DMonline,innovation,humanismprofessional,development,open_data,speculative_futures,RealWorld,ted,transdisciplinarity,creativity,algorithm,sociotechnical,BowkerStar,futuresgender,challenge,data-sets,accountability,digital_futures,tools,DM,reading,DVN,equality,infographic”_
 >
+
 
 ### Review
 Review is an assessment tool that is used to mark your work, give you feedback about your work and for you to develop a sense of what is expected by marking your own work before it is assessed by teaching staff. 
+
+###SPARK
+SPARK is an acronym for Self and Peer Assessment Review Kit. This tool has been developed to assist with in class activities as well as being able to self and peer assess assignments. Its also one of the few tools that make group assessments/work easier, in particular to marking.
+
+
+### Google / Office 365
+Your university account allows you access to Google Apps and Office 365. 
+
+Google Apps access does not include Gmail. You can not login to your UTS google apps account via gmail or if you are already logged in with a personal gmail account, you will need to log out completely from gmail. Once you have done this, you can log in using your student email address. This will revert you to a UTS login page. Use your UTS student number and password and it will revert you back to the Google Drive, but you will be logged into the drive.
+
+Similarly you can mimic the same steps for Office 365. 
+
+
+### R / R Studio
+‘R’ is a coding language used by most of the data science community. RStudio is a software program or ‘Integrated Development Environment’ (IDE) that makes working with the R language ALOT easier. The programming environment is really flexible as it allows you the joy of working in a notebook format, scripting, markdown and publishing your work as a PDF.
+
+You will use R in many of your subjects and being able to use it well will give you a serious edge over your classmates and competitors at hackathons.
+
+**Download and install R & RStudio free**
+ - Download and install the R language: https://cran.rstudio.com/
+ - Download and install RStudio IDE: https://www.rstudio.com/products/rstudio/download/
+
+**Libraries well worth their weight in gold:**
+ - tidyverse - http://tidyverse.org/ A collection of libraries that make data analysis easier 
+    - readr - http://readr.tidyverse.org/ for reading all kinds of data formats
+    - stringr - http://stringr.tidyverse.org/ for working with text
+    - ggplot2 - http://ggplot2.tidyverse.org/ for visualising data
+    - tidyr - http://tidyr.tidyverse.org/ for creating tidy data
+    - dplyr - https://github.com/hadley/dplyr for manipulating data
+ - caret - http://topepo.github.io/caret/index.html for creating predictive models
+ - Bookdown - https://bookdown.org/ for creating beautiful documents
+
+There are many resources to get you started in doing data science with R. Refer to the resources section for more information.
+
+
+### Python / Rodeo / Jupyter Notebook
+Python is a general purpose coding language widely used by the data science community. A great place to start is with the Anaconda from Continuum Analytics : https://www.continuum.io/downloads
+
+Python for data science is commonly used in a notebook format. To this end Jupyter notebooks will become a familiar friend. Fortunately it is included as part of Anaconda. For more info, refer to the resources section.
+
+If you prefer an ‘R’ style IDE, then Rodeo by Yhat is for you. https://www.yhat.com/products/rodeo
+
+If you prefer a traditional IDE, you can get a free license for PyCharm (as well as all their other products) from JetBrains using your student details: https://www.jetbrains.com/student/
+
+**Libraries well worth their weight in gold:**
+ - Numpy - http://www.numpy.org/ for working with numerical arrays
+ - Scipy - https://www.scipy.org/scipylib/index.html for scientific computing with python
+ - Matplotlib - http://matplotlib.org/ for visualising data
+ - Seaborn - http://seaborn.pydata.org/index.html for statistical visualisation
+ - Pandas - http://pandas.pydata.org/ for working with data
+ - Statsmodels - http://www.statsmodels.org/stable/index.html for creating statistical models
+ - Scikit-Learn - http://scikit-learn.org/stable/ for doing machine learning with python
+ - Tensorflow - https://www.tensorflow.org/ ‘deep learning’ with python
+
+Note: Python comes in two different flavours: 2.7 and 3.x. You can start with either version, but it is worth learning what the subtle differences are (eventually).
+
+**A couple of blog posts to help you choose between R and Python:**
+ - R vs Python for Data Science: The Winner is http://www.kdnuggets.com/2015/05/r-vs-python-data-science.html
+ - R vs Python for Data Science: Summary of Modern Advances https://elitedatascience.com/r-vs-python-for-data-science
+
+
+### Tableau
+Tableau is a tool for visualising data. It is quite powerful in its ability to connect to a variety of data sources both on your computer and through the internet. It is also relatively intuitive to use. 
+
+As a student you can apply to the company for a free license to their commercial desktop version. https://www.tableau.com/academic/students
+
+
+### KNIME
+
+KNIME Analytics Platform is an open source solution that enables quick, fast data driven designs for machine learning. Its a visual tool to learn and use when you need to get the job done quickly (without writing any code) and need to create algorithms quickly but you don’t have the time to learn the mathematics behind the algorithms. Its friendly and easy to use to find the hidden ‘story’ in the data. 
+
+Go to https://www.knime.org/knime-analytics-platform to download KNIME for free.
+
+
+### Rapidminer
+Rapidminer is another visual tool for doing data analysis, modelling and machine learning. You can get access to their commercial tools using your student status from https://rapidminer.com/educational-program/
+
+
+### QGIS
+QGIS is a really nice open source tool for working with geospatial data. To get started just head over to http://www.qgis.org/en/site/index.html
+
+
+### Github
+Github is a fantastic tool to get familiar with.  It is a great place to store code, collaborate with other and even host your own website or blog. 
+
+Github has a really generous collection of free stuff for students. To claim yours head over to: https://education.github.com/pack
+
+
+## Writing
+### Blogs
+More and more academics and workplaces use blog posts to reach clients, audiences and share knowledge. Blogs can be useful for many reasons and is used as a reflective tool for students as well as providing an opportunity to share any learning.
+
+You can use some tools to turn topics into amazing titles by using keyword suggesters (http://keywordtool.io), title generators ( https://www.portent.com/tools/title-maker), and you can also test your headlines with the following tool (http://coschedule.com/headline-analyzer#)
+
+Tips for new bloggers
+ - Use an eye catching title
+ - In-text links
+ - Use pictures, pictures speak a thousand words
+ - Keep post to 1000-1500 words
+ - Use social sharing buttons
+ - Use paragraphs - one idea per paragraph
+ - Revise and Rewrite
+ - Omit needless words - Use the KISS (Keep It Simple, Stupid) Principle
+ - Use definite, specific concrete language - direct and to the point
+ - Write in a way that comes naturally - use your active voice
+ - Be clear - make it simple to read and understand
+ - Avoid fancy words
+ - Do not take shortcuts at the cost of clarity
+
+Tips on writing blog posts : https://problogger.com/how-to-write-great-blog-content/
+and http://www.socialmediaexaminer.com/26-tips-for-writing-great-blog-posts/
+
+
+### White papers
+Where do you start with a white paper and what are they? White papers are originally documents written for government policies however this is most recently being used by companies and universities to get new policies and research into the public space.
+
+There are some things to consider when writing a white paper:
+ - Pick a topic people will want to read or a problem you want to solve
+ - Pick a generic title that describes the problem at hand
+ - Engage, inform  and convince your reader
+ - Be descriptive and professional
+ - Consider the audience you are ‘speaking’ to and accommodate for their level of expertise
+ - Set up a great intro
+ - Emphasize the value you want to or will create
+ - Decide on a length for the white paper (1-5 pages are the norm)
+ - Describe the solution you are proposing
+ - Remember a summary that reviews the problem, solution and result of the outcome
+ - Proofread your document, and ensure someone else reads it before you submit/publish it.
+ - Follow the 3-30-3 rule ( you have three seconds to captures your audience's attention from a glance at your piece, if you succeed at capturing their attention then you have 30 more seconds to ensure they continue reading, if you pass the 3-30 rules then your reader will give you three more minutes to make your point).
+
+
+### Assignments
+You will get an assignment brief for each assignment you have due. Its is recommended that you review these briefs and that you follow the detailed instructions set out for you.
+
+
+
+
+
+
 
 

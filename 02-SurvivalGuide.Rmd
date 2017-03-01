@@ -4,9 +4,6 @@
 
 ### Your UTS email:
 <a href="http://www.uts.edu.au/current-students/managing-your-course/using-uts-systems/uts-student-account"><img src="_book/images/UTSmanagecourseBanner.png" alt="UTS manage your course banner"></a>
-```{r}
-include_graphics("_book/images/UTSmanagecourseBanner.png")
-```
 
 First and foremost you need to activate your UTS email address. All official communications from UTS, subject notifications, MDSI newsletters etc will be sent to this email address. You need to activate your email address before you can access other UTS systems.
 

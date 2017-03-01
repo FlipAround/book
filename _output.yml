@@ -14,6 +14,9 @@ bookdown::gitbook:
       before: |
         <li><a href="./">FlipAround</a></li>
       after: |
+        <li><a href="./">Current editorial team:</a></li>
+        <li><a href="mailto:zherish.a.opperman@student.uts.edu.au">Zherish Kerkovius</a></li>
+        <li><a href="mailto:detlev.r.kerkovius@student.uts.edu.au">Detlev Kerkovius</a></li>
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     toolbar:
       position: fixed

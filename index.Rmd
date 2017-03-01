@@ -1,14 +1,15 @@
 --- 
 title: "FlipAround"
-author: "MDSI student community"
-#date: "`r Sys.Date()`"
+author: "Authored by, and for MDSI students"
+date: "V:`r Sys.Date()`"
+# date: "`r format(Sys.Date(), "%d-%m-%Y")`"    <--- Trying to rearrange the date format. bookdown doesn't like it. leaving this here as a reminder to fix it.
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: fliparound/fliparound
+github-repo: fliparound/book
 description: "This is a living document collaboratively authored by students in the Master of Data Science and Innovation course at UTS"
 ---
 
@@ -28,12 +29,12 @@ Getting started on your MDSI journey can be somewhat overwhelming. So to help yo
 
   - Do your statistics pre-flight test
   - Activate UTS student email
-  - Forwarded UTS student email if required
-  - Review Subject Outlines
+  - Forward yoru UTS student email if required
+  - Get the Subject Outlines
   - Activate and personalise CICAround
+  - Join the Slack Channel
   - Do your CLARA profile
   - Log into Diigo
-  - Join the Slack Channel
   - Log into Review
   - Log into SPARK
   - Test your Google Drive
@@ -42,6 +43,7 @@ Getting started on your MDSI journey can be somewhat overwhelming. So to help yo
   - Download Python & Rodeo
   - Download Tableau
   - Download KNIME
+  - Find free stuff
   
 ## Pre-flight tests
 

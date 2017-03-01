@@ -4,7 +4,9 @@
 Each person has their own learning preferences and habits of mind that shape their response to challenges and learning opportunities.
  
 CLARA (Crick LeArning for Resilient Agency) is a tool used to prompt reflection on a multidimensional construct called “Learning Power” with eight dimensions: curiosity, creativity, sense making, belonging, collaboration, hope and optimism, mindful agency and openness to change. The UTS Graduate Attributes have a strong resonance with these dimensions. The CLARA tool is used as part of MDSI activities, aiming to help the students maximise their development results through understanding themselves better, namely with regards to their approach to learning and challenges.
- 
+
+<img src="_book/images/CLARAspider.png" alt="Clara profile components" height="400" width="400">
+
 The tool is survey-based and provides a profile-style feedback covering each of the following dimensions:
 
 Curiosity
@@ -45,7 +47,7 @@ Openness to change
  
 Here is an example of an output from CLARA, showing the resulting profile, based on the responses provided in the survey.
 
-**_Insert images here_**
+<img src="_book/images/Clara.jpg" alt="Clara profile example" height="456" width="400">
 
 Learning profiles can change over time, so MDSI conducts two sets of CLARA tests, to allow the students to compare their profile changes and reflect on their development progress.
  

@@ -3,14 +3,22 @@
 ## First steps
 
 ### Your UTS email:
+<a href="http://www.uts.edu.au/current-students/managing-your-course/using-uts-systems/uts-student-account"><img src="_book/images/UTSmanagecourseBanner.png" alt="UTS manage your course banner"></a>
+
 First and foremost you need to activate your UTS email address. All official communications from UTS, subject notifications, MDSI newsletters etc will be sent to this email address. You need to activate your email address before you can access other UTS systems.
 
 **Activate your UTS Student email:**
- 
+
  - Navigate to https://email.itd.uts.edu.au/webapps/myaccount/activation/ and follow the steps to activate your UTS student email account. 
  - ** Protip: ** If you don’t want to login frequently to check if you have mail, simply setup a email forwarding to an email address of your choice via the settings page after logging in.
+ 
+For more general information about using UTS systems go to: http://www.uts.edu.au/current-students/managing-your-course/using-uts-systems/uts-student-account
+
 
 ### Get your subject outlines:
+
+<a href="https://online.uts.edu.au"><img src="_book/images/UTSOnline.png" alt="CICAround site banner"></a>
+
 MDSI uses a variety of systems for online teaching and learning. UTSOnline and CICAround are the two primary environments for you to familiarise yourself with. 
 
 The first thing you need to do after activating your email address is to login to UTSOnline, access your subjects and find your subject outline. Your subject outline contains everything you need to know about your subject for the coming semester. It includes the contact information for your subject co-ordinator, important dates, assessment descriptions and much more. In most cases you can find the answer to any question you might have about your subject addressed in the subject outline.
@@ -21,10 +29,10 @@ The first thing you need to do after activating your email address is to login t
  - Access your subjects by clicking on your subject name
  - Download your subject outline by clicking on the link titled ‘Subject Outline’ in the left side menu, then click on the subject outline link on the page.
 
-
-
-## Technology
 ### Join the MDSI community:
+
+<a href="https://ca.uts.edu.au"><img src="_book/images/CAlogo.png" alt="CICAround site banner"></a>
+
 Your next stop should be CICAround. Here you will connect with your peers in an academic capacity. There are discussion forums for your subjects where you can post questions. CICAround most notably is where you will go to blog about your experiences throughout your MDSI journey. The first step is to activate your blog. Then you can browse through the blogs of your new MDSI family and read about their experiences and the things they have learnt.
 
 **Activate and personalise your CICAround profile:**
@@ -33,8 +41,11 @@ Your next stop should be CICAround. Here you will connect with your peers in an 
  - Watch the welcome video then login to CICAround using your student ID and password. 
  - Put up your first CICAround Blog post
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/bvCWlviXVOg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Join the MDSI chatter:
+<a href="https://slack.com/downloads"><img src="_book/images/Slacklogo.png" alt="Slack logo"></a>
+
 Slack has proven to be a very useful tool so far. It is completely driven by the student community and is where the MDSI student community goes to socialise, organise BBQs, ask each other for technical help and share useful resources. If you need a quick answer, Slack is the place to go.
 
 **Join the Slack Channel**
@@ -44,30 +55,15 @@ Slack has proven to be a very useful tool so far. It is completely driven by the
  - You do not need to pay for a subscription. 
  - Signup to the MDSI group at: https://utsmdsi.slack.com/
 
-
-### Diigo
-A collection of resources contributed by the MDSI community. 
-
-**Join the Diigo group**
- - simply create a Diigo account and request access. https://groups.diigo.com/group/cic_mdsi
-
-Frequently used search tags include:
- 
-_“DSI, DAM, Data, big_data, case studies, visualization, teaching_tools, statistics, stats-thnkg, privacy, Algorithms, ethicsVSD, realworldDM, video, Analytics, human-machine, history, data,mining, Data_science, cisco, R, IoE, TEDtalks, values, QSProject, Algorithmic, Accountability, industry, sociotechnical, systems, AI, podcast, professional_practice, portfolio, storytelling, bbc, QS, DMonline, innovation, humanismprofessional, development, open_data, speculative_futures, RealWorld, ted, transdisciplinarity, creativity, algorithm, sociotechnical, BowkerStar, futuresgender, challenge, data-sets, accountability, digital_futures, tools, DM, reading, DVN, equality, infographic”_
+If you're completely new to Slack, there are some helpful getting started guides at https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides
 
 
-
-### Review
-Review is an assessment tool that is used to mark your work, give you feedback about your work and for you to develop a sense of what is expected by marking your own work before it is assessed by teaching staff. 
-
-
-###SPARK
-SPARK is an acronym for Self and Peer Assessment Review Kit. This tool has been developed to assist with in class activities as well as being able to self and peer assess assignments. Its also one of the few tools that make group assessments/work easier, in particular to marking.
-
-https://uts.sparkplus.com.au/login.php
-
+## Technology
 
 ### Google / Office 365
+<a href="https://accounts.google.com/Login"><img src="_book/images/GoogleAppslogo.png" alt="Google Apps login"></a>
+<a href="https://login.microsoftonline.com/"><img src="_book/images/Office365logo.png" alt="Office365 login"></a>
+
 Your university account allows you access to Google Apps and Office 365. 
 
 Google Apps access does not include Gmail. You can not login to your UTS google apps account via gmail or if you are already logged in with a personal gmail account, you will need to log out completely from gmail. Once you have done this, you can log in using your student email address. This will revert you to a UTS login page. Use your UTS student number and password and it will revert you back to the Google Drive, but you will be logged into the drive.
@@ -76,6 +72,8 @@ Similarly you can mimic the same steps for Office 365.
 
 
 ### R / R Studio
+<a href="https://www.rstudio.com/products/rstudio/download/"><img src="_book/images/RStudiologo.png" alt="RStudio logo"></a>
+
 ‘R’ is a coding language used by most of the data science community. RStudio is a software program or ‘Integrated Development Environment’ (IDE) that makes working with the R language ALOT easier. The programming environment is really flexible as it allows you the joy of working in a notebook format, scripting, markdown and publishing your work as a PDF.
 
 You will use R in many of your subjects and being able to use it well will give you a serious edge over your classmates and competitors at hackathons.
@@ -100,6 +98,11 @@ There are many resources to get you started in doing data science with R. Refer 
 
 
 ### Python / Rodeo / Jupyter Notebook
+<a href="https://www.python.org/"><img src="_book/images/Pythonlogo.png" alt="Python logo"></a>
+<a href="https://www.continuum.io/downloads"><img src="_book/images/Anacondalogo.png" alt="Anaconda logo"></a>
+<a href="http://jupyter.org/"><img src="_book/images/Jupyterlogo.png" alt="Jupyter notebooks logo"></a>
+<a href="https://www.yhat.com/products/rodeo"><img src="_book/images/Rodeologo.png" alt="Rodeo by Yhat logo"></a>
+
 Python is a general purpose coding language widely used by the data science community. A great place to start is with the Anaconda from Continuum Analytics : https://www.continuum.io/downloads
 
 Python for data science is commonly used in a notebook format. To this end Jupyter notebooks will become a familiar friend. Fortunately it is included as part of Anaconda. For more info, refer to the resources section.
@@ -128,12 +131,15 @@ Note: Python comes in two different flavours: 2.7 and 3.x. You can start with ei
 
 
 ### Tableau
+<a href="https://www.tableau.com/academic/students"><img src="_book/images/Tableaulogo.png" alt="Tableau logo"></a>
+
 Tableau is a tool for visualising data. It is quite powerful in its ability to connect to a variety of data sources both on your computer and through the internet. It is also relatively intuitive to use. 
 
 As a student you can apply to the company for a free license to their commercial desktop version. https://www.tableau.com/academic/students
 
 
 ### KNIME
+<a href="https://www.knime.org/knime-analytics-platform"><img src="_book/images/KNIMElogo.png" alt="KNIME logo"></a>
 
 KNIME Analytics Platform is an open source solution that enables quick, fast data driven designs for machine learning. Its a visual tool to learn and use when you need to get the job done quickly (without writing any code) and need to create algorithms quickly but you don’t have the time to learn the mathematics behind the algorithms. Its friendly and easy to use to find the hidden ‘story’ in the data. 
 
@@ -141,18 +147,66 @@ Go to https://www.knime.org/knime-analytics-platform to download KNIME for free.
 
 
 ### Rapidminer
+<a href="https://rapidminer.com/educational-program/"><img src="_book/images/Rapidminerlogo.png" alt="Rapidminer logo"></a>
+
 Rapidminer is another visual tool for doing data analysis, modelling and machine learning. You can get access to their commercial tools using your student status from https://rapidminer.com/educational-program/
 
 
-### QGIS
+### Quantum GIS
+<a href="http://www.qgis.org/en/site/index.html"><img src="_book/images/QGISlogo.png" alt="Quantum GIS logo"></a>
+
 QGIS is a really nice open source tool for working with geospatial data. To get started just head over to http://www.qgis.org/en/site/index.html
 
 
 ### Github
-Github is a fantastic tool to get familiar with.  It is a great place to store code, collaborate with other and even host your own website or blog. 
+<a href="https://education.github.com/pack"><img src="_book/images/GithubEdulogo.png" alt="Github for education logo"></a>
+
+Github is a fantastic tool to become familiar with.  It is a great place to store code, collaborate with other and even host your own website or blog. 
 
 Github has a really generous collection of free stuff for students. To claim yours head over to: https://education.github.com/pack
 
+
+### Diigo
+<a href="https://www.diigo.com"><img src="_book/images/diigologo.png" alt="diigo logo"></a>
+
+A collection of resources contributed by the MDSI community. 
+
+**Join the Diigo group**
+ - simply create a Diigo account and request access. https://groups.diigo.com/group/cic_mdsi
+
+Frequently used search tags include:
+ 
+_“DSI, DAM, Data, big_data, case studies, visualization, teaching_tools, statistics, stats-thnkg, privacy, Algorithms, ethicsVSD, realworldDM, video, Analytics, human-machine, history, data,mining, Data_science, cisco, R, IoE, TEDtalks, values, QSProject, Algorithmic, Accountability, industry, sociotechnical, systems, AI, podcast, professional_practice, portfolio, storytelling, bbc, QS, DMonline, innovation, humanismprofessional, development, open_data, speculative_futures, RealWorld, ted, transdisciplinarity, creativity, algorithm, sociotechnical, BowkerStar, futuresgender, challenge, data-sets, accountability, digital_futures, tools, DM, reading, DVN, equality, infographic”_
+
+
+### Review
+<a href="https://uts.review-edu.com/uts/"><img src="_book/images/Reviewlogo.png" alt="Review logo"></a>
+
+Review is an assessment tool that is used to mark your work, give you feedback about your work and for you to develop a sense of what is expected by marking your own work before it is assessed by teaching staff. 
+
+Review allows you to see feedback from your lecturer as well as your mark broken down by specific Graduate Attribute (GA) / Course Intended Learning Outcome (CILO) set out by your assignment.
+
+It also allows you to self assess your assignment, which allows the lecturer to see if your expectation is in line with their expectation. It’s important to note that the lecturer will not be able to see your self assessment until after they have saved your mark.
+
+You are also able to see the average of the class as well as where the staff has measure you. 
+
+You can login with your student ID and Password
+
+https://uts.review-edu.com/uts/
+
+<img src="_book/images/reviews.jpg" alt="Review screenshot">
+
+
+###SPARK-Plus
+<a href="https://uts.sparkplus.com.au/login.php"><img src="_book/images/SPARKlogo.png" alt="SPARK Plus logo"></a>
+
+SPARK is an acronym for Self and Peer Assessment Review Kit. This tool has been developed to assist with in class activities as well as being able to self and peer assess assignments. Its also one of the few tools that make group assessments/work easier, in particular to marking.
+
+**Login with your student ID and Password**
+
+https://uts.sparkplus.com.au/login.php
+
+<img src="_book/images/spark.jpg" alt="SparkPlus screenshot" height="210" width="728">
 
 ## Writing
 ### Blogs
@@ -203,7 +257,126 @@ There are some things to consider when writing a white paper:
 You will get an assignment brief for each assignment you have due. Its is recommended that you review these briefs and that you follow the detailed instructions set out for you.
 
 
+## Researching
+Explain about subscriptions in Library and access to books. 
 
+The Library has great resources, workshops and tools that will help you during your education if you choose to utilise this tool.
+
+The library team will help you wherever they can. 
+
+It is recommended that you keep an eye out for all their events on http://www.lib.uts.edu.au/events
+
+You can also get more information from the following link: http://www.lib.uts.edu.au/research
+
+The following events, particularly for MDSI students, are coming up in the next month and below are links where you can register.
+
+**MDSI: Data Science Research and Referencing**
+Tue, 14 March, 2017
+**10:00 AM to 11:30 AM**
+This workshop is a practical introduction to advanced research skills and reference management tools, with a focus on data science. Laptops are recommended but not essential. Participation is open to MDSI students. A concurrent workshop will run if more than 24 participants register for this session.
+http://www.lib.uts.edu.au/event/609872/mdsi-data-science-research-and-referencing
+
+**MDSI: Library Tour and Scavenger Hunt**
+Tue, 14 March, 2017
+**6:00 PM to 7:00 PM**
+An interactive tour (it's a scavenger hunt) of the UTS Library services and facilities for MDSI students. Meet in the Library foyer.
+https://www.lib.uts.edu.au/event/609880/mdsi-library-tour-and-scavenger-hunt
+
+
+## Practice
+At times Industry will approach CIC for students who might be interested in internships. These are posted by the CIC:MDSI team in CICAround whenever these possibilities comes up.
+
+You can find the postings on CICAround (https://ca.uts.edu.au/blog/)
+
+## Data Security
+include a security/privacy sub section (must cover concepts of masking, encrypting etc data)
+
+Data security is defined as measures that is used to protect digital privacy as to prevent unauthorised access to computers, databases, websites and other digital items. It also protects data from corruption. 
+
+Data security can include backups, data masking, encryption or even data erasure. 
+
+Data masking is defined as the process of changing certain part of data so that the structure remains the same but the information itself is changed to protect sensitive information. It ensures that sensitive information is unavailable beyond the permitted environment. It ensures that the original values are not re-engineered or identified. Eg is user training and software testing. 
+
+Data encryption ensures that data is unreadable to users who are not authorised to access the data and who do not have the ‘key’. 
+
+One of the most common ways of securing data is using authentication like passwords, and other data that can verify an identity ( like email and password login) prior to granting access to a system. These measures are taken to ensure hackers that use alternative system access methods to sabotage computer systems and networks.
+
+Hacker actions can be illegal or legal depending on the purpose behind the actions. 
+There are three categories of hackers :
+
+ - Black hat hackers break into computer systems illegally and cause harm by stealing or destroying data, i.e., a banking system to steal money for personal gain.
+ - White hat hackers use their skills to help enterprises create robust computer systems.
+ - Grey hat hackers perform illegal hacking activities to show off their skills, rather than to achieve personal gain.
+ 
+10 General Data Security Tips:
+
+ 1. Back up early and often
+ 2. Use file-level and share-level security
+ 3. Password protect documents
+ 4. Use EFS encryption
+ 5. Use disk encryption
+ 6. Use a public key infrastructure
+ 7. Hide data
+ 8. Protect data in transit
+ 9. Secure wireless transmission
+ 10. Use management or access control
+
+Types of Encryption:
+
+ - Triple DES : It uses three individual keys with 56 bits each that adds up to 168 bits. This is a dependable hardware encryption solution
+ - RSA : A public-key encryption algorithm and is standard for encrypting data over the internet. Is a asymmetric algorithm due to use of a pair of keys. There is a public key, to encrypt, and a private key, used to decrypt. 
+ - Blowfish : the symmetric cipher splits messages into blocks of 64 bits and encrypts them individually. Its high speed and very effective. It’s also free source software.
+Twofish : 
+
+
+## Hackathons
+
+
+## Cloud Computing
+
+## The art of 'self learning'
+
+Self learning is the process of teaching ‘self’. With the boom in freely available technology it has become possible for each student to dictate their own learning experience and how much they want to expand. They can either learn the minimum of what is being taught in class, or they can put in extra time and work and participate in the exciting adventure of self learning.
+
+This involves using various resources from YouTube, Journals, Additional Books and anything else you can get your hands on that adds to your skillset and your knowledge base.
+
+In recent days self learning is considered an art with lecturers there as guidance or mentors on this journey where you can develop your skills to great depth in a short amount of time.
+
+There are a few things to keep in mind during this journey :
+
+ - Reputable sources for learning a concept is required. If you plan to embark on the art of self learning you need to make sure that the sources you are learning from, know what they are talking about. What can be considered reputable sources? 
+    - Academic journals or white papers
+    - Non- biased sources 
+    - Generally, personal blogs are avoided. However, in this constantly updating space we might need to learn from other expert in the field that explain these fast changing concepts.
+ - Read textbooks and books about the topic. A large collection of books are available to you as a student for free via the Library (you can sometimes even download a pdf version for your personal use).
+ - Watch the videos on YouTube on the topic, especially for the more tricky, hands on or mathematical based subjects.
+Learn from your surroundings. Never underestimate the value others can bring to your journey. This ranges from mentors to other students, some students are further in their journey and can help you along. There are also various meet-ups and networking events surrounding these topics.
+ - Hands-on experience is by far the best. Join a hackathon, or get an internship.
+ - Use guided learning experiences, like MOOC’s on Coursera or a range of other platforms.
+ - Plan your success. Write down your goals, learning outcomes and what you would like to master or be able to do and endeavour to move toward those goals (this will be really handy in iLab too).
+
+## Resources and learning
+
+## MDSI Jargon
+
+UTS Online : 
+CICAround:
+FlipAround:
+R:
+Python:
+KNIME:
+Diigo:
+Slack:
+WordPress:
+Lynda.com:
+MOOC:
+Hackathon:
+Azure:
+AWS:
+Coursera:
+GA: Graduate Attribute
+CILO: Course Intended Learning Outcome
+SILO: Subject Intended Learning Outcome
 
 
 

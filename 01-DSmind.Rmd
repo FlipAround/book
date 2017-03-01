@@ -6,22 +6,34 @@ Each person has their own learning preferences and habits of mind that shape the
 CLARA (Crick LeArning for Resilient Agency) is a tool used to prompt reflection on a multidimensional construct called “Learning Power” with eight dimensions: curiosity, creativity, sense making, belonging, collaboration, hope and optimism, mindful agency and openness to change. The UTS Graduate Attributes have a strong resonance with these dimensions. The CLARA tool is used as part of MDSI activities, aiming to help the students maximise their development results through understanding themselves better, namely with regards to their approach to learning and challenges.
  
 The tool is survey-based and provides a profile-style feedback covering each of the following dimensions:
+
 Curiosity
+
  - Wanting to get beneath the surface & find out more
  - Always wondering why and how
+ 
 Creativity
+
  - Using my intuition &  imagination to generate new ideas & knowledge
  - Taking risks & playing with ideas and artefacts to arrive at new solutions
+ 
 Sense making
+
  - Making connections between what I already know & new information & experience
  - Making meaning by linking my story, my new learning & my purpose
+ 
 Belonging
+
  - Being part of a learning community at work, at home, in education & in my social networks
  - Knowing I have social resources to draw on when I need them
+ 
 Collaboration
+
  - Being able to work with others, to collaborate and co-generate new ideas and artefacts
  - Being able to listen and contribute productively to a team
+ 
 Hope and optimism
+
  - Having the optimism & hope that I can learn & achieve over time
  - Having a growth mindset; believing I can generate my own new knowledge for what I need to achieve
 Mindful agency
@@ -33,7 +45,7 @@ Openness to change
  
 Here is an example of an output from CLARA, showing the resulting profile, based on the responses provided in the survey.
 
-*Insert images here*
+**_Insert images here_**
 
 Learning profiles can change over time, so MDSI conducts two sets of CLARA tests, to allow the students to compare their profile changes and reflect on their development progress.
  
@@ -67,14 +79,16 @@ Interpersonal/managerial:
  - Project management
  
 Competency levels:
-**Beginner:** able to assist and perform simple tasks
-**Competent:** able to perform tasks independently
-**Advanced:** able to perform complex tasks
-**Expert:** able to perform complex transformative, strategic or trans-disciplinary tasks 
+
+ - **Beginner:** able to assist and perform simple tasks
+ - **Competent:** able to perform tasks independently
+ - **Advanced:** able to perform complex tasks
+ - **Expert:** able to perform complex transformative, strategic or trans-disciplinary tasks 
  
 The competencies assessment exercise aims to prompt the students to take a proactive attitude to their professional development efforts and effectively apply their analytical skills, dedication and professionalism in managing their career objectives.
 
 The competencies assessment exercise covers the following steps:
+
  1. Evaluate your current competency level for each domain on the list
  2. Choose a set of domains (no more than 6) that are relevant to your planned development for this subject, your course and your career goals.
  3. Identify the goal competency levels for the selected domains and describe related professional development outcomes that support your assessment

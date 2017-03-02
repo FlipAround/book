@@ -5,7 +5,9 @@ Each person has their own learning preferences and habits of mind that shape the
  
 CLARA (Crick LeArning for Resilient Agency) is a tool used to prompt reflection on a multidimensional construct called “Learning Power” with eight dimensions: curiosity, creativity, sense making, belonging, collaboration, hope and optimism, mindful agency and openness to change. The UTS Graduate Attributes have a strong resonance with these dimensions. The CLARA tool is used as part of MDSI activities, aiming to help the students maximise their development results through understanding themselves better, namely with regards to their approach to learning and challenges.
 
-<img src="_book/images/CLARAspider.png" alt="Clara profile components" height="400" width="400">
+```{r echo=FALSE}
+knitr::include_graphics("Images/CLARAspider.png", dpi = NA)
+```
 
 The tool is survey-based and provides a profile-style feedback covering each of the following dimensions:
 
@@ -47,7 +49,9 @@ Openness to change
  
 Here is an example of an output from CLARA, showing the resulting profile, based on the responses provided in the survey.
 
-<img src="_book/images/Clara.jpg" alt="Clara profile example" height="456" width="400">
+```{r echo=FALSE, out.width="50%"}
+knitr::include_graphics("Images/Clara.jpg", dpi = NA)
+```
 
 Learning profiles can change over time, so MDSI conducts two sets of CLARA tests, to allow the students to compare their profile changes and reflect on their development progress.
  
@@ -59,7 +63,8 @@ Students are encouraged to utilise the tool to identify the key competencies ass
 For each relevant competency, students evaluate their current competency levels, identify any gaps and use the information to create a set of actions that would form their professional development plan. The competencies model is introduced to students as part of 36100 (Data Science and Innovation) subject through a self-assessment exercise.
 The competencies are divided into two groups: technical and managerial, describing the following competency (proficiency) levels for each domain: Beginner, Competent, Advanced and Expert.
 
-Technical:
+**Technical:**
+
  - Mathematics and statistics
  - Programing and scripting languages
  - Databases and data storage
@@ -71,7 +76,8 @@ Technical:
  - Business analysis and interpretation
  - Product development
  
-Interpersonal/managerial:
+**Interpersonal/managerial:**
+
  - Creativity
  - Communication
  - Data strategy
@@ -80,7 +86,7 @@ Interpersonal/managerial:
  - Facilitation and presentation
  - Project management
  
-Competency levels:
+**Competency levels:**
 
  - **Beginner:** able to assist and perform simple tasks
  - **Competent:** able to perform tasks independently

@@ -152,7 +152,7 @@ Note: Python comes in two different flavours: 2.7 and 3.x. You can start with ei
  - R vs Python for Data Science: Summary of Modern Advances https://elitedatascience.com/r-vs-python-for-data-science
 
 ### Tableau
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="30%"}
 knitr::include_graphics("images/Tableaulogo.png", dpi = NA)
 ```
 
@@ -161,7 +161,7 @@ Tableau is a tool for visualising data. It is quite powerful in its ability to c
 As a student you can apply to the company for a free license to their commercial desktop version. https://www.tableau.com/academic/students
 
 ### KNIME
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="30%"}
 knitr::include_graphics("images/KNIMElogo.png", dpi = NA)
 ```
 
@@ -170,20 +170,21 @@ KNIME Analytics Platform is an open source solution that enables quick, fast dat
 Go to https://www.knime.org/knime-analytics-platform to download KNIME for free.
 
 ### Rapidminer
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="30%"}
 knitr::include_graphics("images/Rapidminerlogo.png", dpi = NA)
 ```
 
 Rapidminer is another visual tool for doing data analysis, modelling and machine learning. You can get access to their commercial tools using your student status from https://rapidminer.com/educational-program/
 
 ### Quantum GIS
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="20%"}
 knitr::include_graphics("images/QGISlogo.png", dpi = NA)
 ```
+
 QGIS is a really nice open source tool for working with geospatial data. To get started just head over to http://www.qgis.org/en/site/index.html
 
 ### Github
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="30%"}
 knitr::include_graphics("images/GithubEdulogo.png", dpi = NA)
 ```
 
@@ -192,7 +193,7 @@ Github is a fantastic tool to become familiar with.  It is a great place to stor
 Github has a really generous collection of free stuff for students. To claim yours head over to: https://education.github.com/pack
 
 ### Diigo
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="30%"}
 knitr::include_graphics("images/diigologo.png", dpi = NA)
 ```
 
@@ -206,7 +207,7 @@ Frequently used search tags include:
 _“DSI, DAM, Data, big_data, case studies, visualization, teaching_tools, statistics, stats-thnkg, privacy, Algorithms, ethicsVSD, realworldDM, video, Analytics, human-machine, history, data,mining, Data_science, cisco, R, IoE, TEDtalks, values, QSProject, Algorithmic, Accountability, industry, sociotechnical, systems, AI, podcast, professional_practice, portfolio, storytelling, bbc, QS, DMonline, innovation, humanismprofessional, development, open_data, speculative_futures, RealWorld, ted, transdisciplinarity, creativity, algorithm, sociotechnical, BowkerStar, futuresgender, challenge, data-sets, accountability, digital_futures, tools, DM, reading, DVN, equality, infographic”_
 
 ### Review
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="40%"}
 knitr::include_graphics("images/Reviewlogo.png", dpi = NA)
 ```
 
@@ -218,11 +219,12 @@ It also allows you to self assess your assignment, which allows the lecturer to 
 
 You are also able to see the average of the class as well as where the staff has measure you. 
 
-You can login with your student ID and Password
-
+You can login with your student ID and Password at: 
 https://uts.review-edu.com/uts/
 
-<img src="_book/images/reviews.jpg" alt="Review screenshot">
+```{r echo=FALSE}
+knitr::include_graphics("images/Reviews.jpg", dpi = NA)
+```
 
 ###SPARK-Plus
 ```{r echo=FALSE, out.width="25%"}

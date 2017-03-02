@@ -30,7 +30,7 @@
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
-\bibliographystyle{apalike}
+\bibliographystyle{plainnat}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{V:2017-03-02}
+  \date{V:2017-03-03}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -206,6 +206,8 @@ help the students maximise their development results through
 understanding themselves better, namely with regards to their approach
 to learning and challenges.
 
+\includegraphics{Images/CLARAspider.png}
+
 The tool is survey-based and provides a profile-style feedback covering
 each of the following dimensions:
 
@@ -289,6 +291,8 @@ Hope and optimism
 Here is an example of an output from CLARA, showing the resulting
 profile, based on the responses provided in the survey.
 
+\includegraphics[width=0.5\linewidth]{Images/Clara}
+
 Learning profiles can change over time, so MDSI conducts two sets of
 CLARA tests, to allow the students to compare their profile changes and
 reflect on their development progress.
@@ -316,17 +320,53 @@ groups: technical and managerial, describing the following competency
 (proficiency) levels for each domain: Beginner, Competent, Advanced and
 Expert.
 
-Technical: - Mathematics and statistics - Programing and scripting
-languages - Databases and data storage - Computing systems, platforms,
-security, integration - Data mining - Data modelling - Analytics,
-predictive modelling and machine learning - Data visualisation -
-Business analysis and interpretation - Product development
+\textbf{Technical:}
 
-Interpersonal/managerial: - Creativity - Communication - Data strategy -
-Line management - Data management and governance - Facilitation and
-presentation - Project management
+\begin{itemize}
+\tightlist
+\item
+  Mathematics and statistics
+\item
+  Programing and scripting languages
+\item
+  Databases and data storage
+\item
+  Computing systems, platforms, security, integration
+\item
+  Data mining
+\item
+  Data modelling
+\item
+  Analytics, predictive modelling and machine learning
+\item
+  Data visualisation
+\item
+  Business analysis and interpretation
+\item
+  Product development
+\end{itemize}
 
-Competency levels:
+\textbf{Interpersonal/managerial:}
+
+\begin{itemize}
+\tightlist
+\item
+  Creativity
+\item
+  Communication
+\item
+  Data strategy
+\item
+  Line management
+\item
+  Data management and governance
+\item
+  Facilitation and presentation
+\item
+  Project management
+\end{itemize}
+
+\textbf{Competency levels:}
 
 \begin{itemize}
 \tightlist
@@ -490,6 +530,8 @@ MDSI}{A survival guide to MDSI}}\label{a-survival-guide-to-mdsi}
 
 \subsection{Your UTS email:}\label{your-uts-email}
 
+\includegraphics{images/UTSmanagecourseBanner.png}
+
 First and foremost you need to activate your UTS email address. All
 official communications from UTS, subject notifications, MDSI
 newsletters etc will be sent to this email address. You need to activate
@@ -514,9 +556,9 @@ For more general information about using UTS systems go to:
 
 \subsection{Get your subject outlines:}\label{get-your-subject-outlines}
 
-MDSI uses a variety of systems for online teaching and learning.
-UTSOnline and CICAround are the two primary environments for you to
-familiarise yourself with.
+\includegraphics{images/UTSOnline.png} MDSI uses a variety of systems
+for online teaching and learning. UTSOnline and CICAround are the two
+primary environments for you to familiarise yourself with.
 
 The first thing you need to do after activating your email address is to
 login to UTSOnline, access your subjects and find your subject outline.
@@ -544,6 +586,8 @@ might have about your subject addressed in the subject outline.
 
 \subsection{Join the MDSI community:}\label{join-the-mdsi-community}
 
+\includegraphics{images/CAlogo.png}
+
 Your next stop should be CICAround. Here you will connect with your
 peers in an academic capacity. There are discussion forums for your
 subjects where you can post questions. CICAround most notably is where
@@ -566,6 +610,8 @@ things they have learnt.
 \end{itemize}
 
 \subsection{Join the MDSI chatter:}\label{join-the-mdsi-chatter}
+
+\includegraphics{images/Slacklogo.png}
 
 Slack has proven to be a very useful tool so far. It is completely
 driven by the student community and is where the MDSI student community
@@ -596,6 +642,9 @@ started guides at
 
 \subsection{Google / Office 365}\label{google-office-365}
 
+\includegraphics{Images/GoogleAppslogo.png}
+\includegraphics{Images/Office365logo.png}
+
 Your university account allows you access to Google Apps and Office 365.
 
 Google Apps access does not include Gmail. You can not login to your UTS
@@ -609,6 +658,8 @@ you will be logged into the drive.
 Similarly you can mimic the same steps for Office 365.
 
 \subsection{R / R Studio}\label{r-r-studio}
+
+\includegraphics{Images/RStudiologo.png}
 
 `R' is a coding language used by most of the data science community.
 RStudio is a software program or `Integrated Development Environment'
@@ -667,14 +718,28 @@ R. Refer to the resources section for more information.
 \subsection{Python / Rodeo / Jupyter
 Notebook}\label{python-rodeo-jupyter-notebook}
 
+\includegraphics{images/Pythonlogo.png}
+\includegraphics{images/Anacondalogo.png}
+
 Python is a general purpose coding language widely used by the data
-science community. A great place to start is with the Anaconda from
+science community. A great place to start is with Anaconda from
 Continuum Analytics : \url{https://www.continuum.io/downloads}
+
+Anaconda comes with a `container' management environment called `conda'
+and ships with a collection of scientific python libraries that have
+optimised for fast computation. It is also really helpful to manage your
+libraries and will let you know if there are incompatibilities between
+the libraries you are using. This is just the tip of the Anaconda
+iceberg.
+
+\includegraphics[width=0.2\linewidth]{Images/Jupyterlogo}
 
 Python for data science is commonly used in a notebook format. To this
 end Jupyter notebooks will become a familiar friend. Fortunately it is
 included as part of Anaconda. For more info, refer to the resources
 section.
+
+\includegraphics[width=0.2\linewidth]{Images/Rodeologo}
 
 If you prefer an `R' style IDE, then Rodeo by Yhat is for you.
 \url{https://www.yhat.com/products/rodeo}
@@ -728,6 +793,8 @@ differences are (eventually).
 
 \subsection{Tableau}\label{tableau}
 
+\includegraphics{images/Tableaulogo.png}
+
 Tableau is a tool for visualising data. It is quite powerful in its
 ability to connect to a variety of data sources both on your computer
 and through the internet. It is also relatively intuitive to use.
@@ -737,6 +804,8 @@ commercial desktop version.
 \url{https://www.tableau.com/academic/students}
 
 \subsection{KNIME}\label{knime}
+
+\includegraphics{images/KNIMElogo.png}
 
 KNIME Analytics Platform is an open source solution that enables quick,
 fast data driven designs for machine learning. Its a visual tool to
@@ -750,6 +819,8 @@ KNIME for free.
 
 \subsection{Rapidminer}\label{rapidminer}
 
+\includegraphics{images/Rapidminerlogo.png}
+
 Rapidminer is another visual tool for doing data analysis, modelling and
 machine learning. You can get access to their commercial tools using
 your student status from
@@ -757,11 +828,13 @@ your student status from
 
 \subsection{Quantum GIS}\label{quantum-gis}
 
-QGIS is a really nice open source tool for working with geospatial data.
-To get started just head over to
+\includegraphics{images/QGISlogo.png} QGIS is a really nice open source
+tool for working with geospatial data. To get started just head over to
 \url{http://www.qgis.org/en/site/index.html}
 
 \subsection{Github}\label{github}
+
+\includegraphics{images/GithubEdulogo.png}
 
 Github is a fantastic tool to become familiar with. It is a great place
 to store code, collaborate with other and even host your own website or
@@ -771,6 +844,8 @@ Github has a really generous collection of free stuff for students. To
 claim yours head over to: \url{https://education.github.com/pack}
 
 \subsection{Diigo}\label{diigo}
+
+\includegraphics{images/diigologo.png}
 
 A collection of resources contributed by the MDSI community.
 
@@ -792,6 +867,8 @@ data-sets, accountability, digital\_futures, tools, DM, reading, DVN,
 equality, infographic''}
 
 \subsection{Review}\label{review}
+
+\includegraphics{images/Reviewlogo.png}
 
 Review is an assessment tool that is used to mark your work, give you
 feedback about your work and for you to develop a sense of what is
@@ -816,6 +893,8 @@ You can login with your student ID and Password
 
 \subsection{SPARK-Plus}\label{spark-plus}
 
+\includegraphics[width=0.25\linewidth]{images/SPARKlogo}
+
 SPARK is an acronym for Self and Peer Assessment Review Kit. This tool
 has been developed to assist with in class activities as well as being
 able to self and peer assess assignments. Its also one of the few tools
@@ -824,6 +903,8 @@ that make group assessments/work easier, in particular to marking.
 \textbf{Login with your student ID and Password}
 
 \url{https://uts.sparkplus.com.au/login.php}
+
+\includegraphics{images/spark.jpg}
 
 \section{Writing}\label{writing}
 
@@ -1012,7 +1093,7 @@ the actions. There are three categories of hackers :
   skills, rather than to achieve personal gain.
 \end{itemize}
 
-10 General Data Security Tips:
+\textbf{10 General Data Security Tips:}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1039,7 +1120,7 @@ the actions. There are three categories of hackers :
   Use management or access control
 \end{enumerate}
 
-Types of Encryption:
+\textbf{Types of Encryption:}
 
 \begin{itemize}
 \tightlist
@@ -1054,12 +1135,125 @@ Types of Encryption:
 \item
   Blowfish : the symmetric cipher splits messages into blocks of 64 bits
   and encrypts them individually. Its high speed and very effective.
-  It's also free source software. Twofish :
+  It's also free source software.
+\item
+  Twofish : Symmetric algorithm with keys up to 256 bits, only one key
+  is needed. The fastest of its kind and ideal for hardware and
+  software. It's also free source software.
+\item
+  AES : Most trusted algorithm by U.S. Government. Has an efficient
+  128-bit but also a 192 and 256 bit algorithms for heavy duty
+  encryption purposes. Considered impervious to attacks except brute
+  force.
+\item
+  Honey Encryption : deters hackers by serving fake data for every
+  incorrect guess. It slows down attackers but also provides a haystack
+  of false hopes and makes it difficult for hackers to find the correct
+  key.
 \end{itemize}
+
+\url{http://www.computerworld.com/article/2546352/data-center/top-10-ways-to-secure-your-stored-data.html}
+
+\url{http://www8.hp.com/us/en/software-solutions/what-is/data-security.html}
+
+\url{http://www.lexisnexis.com.au/en-au/products/privacy-confidentiality-and-data-security.page}
 
 \section{Hackathons}\label{hackathons}
 
+Hackathons are competitions (socially or sometimes for a prize) that
+challenge you with a goal or a problem. In a data science context this
+typically involves datasets and your wits against a clock. Hackathons
+are a fantastic way to learn from each other, to ideate, validate,
+develop your skills and sometimes even build a prototype. Hackathons are
+one of the most authentic learning experiences you can have as a data
+science student. You will practice all sorts of skills you need to
+become amazing:
+
+\begin{itemize}
+\tightlist
+\item
+  Team work
+\item
+  How to frame a problem
+\item
+  Data investigation
+\item
+  Practicing and learning all kinds of technical skills
+\item
+  Data storytelling
+\item
+  Presentation \& selling your ideas
+\item
+  Networking
+\end{itemize}
+
+Hackathons are educational, engaging and empowering. You do not need to
+feel ready before you participate. The only thing you need to do is show
+up, have a positive `can do' attitude and have fun.
+
+They last anything from a few hours to a few days.
+
+MDSI students have been leaving their mark at these events by taking
+home the prizes as well as the really big prize checks as can be seen on
+display in CIC.
+
+The most popular one to get involved in is `Unearthed':
+\url{http://unearthed.solutions/} Our very own `Data Cake' took home the
+first prize in 2016, `Perry's Fan Club' took home shared second prize in
+2016 as well as `Team Beaver' taking home Young Innovator Award.
+
+If you don't want to wait for an event and want to sink your teeth into
+a hackathon right now, you can participate in online data science
+competitions. Here are a few links to get your started:
+
+\begin{itemize}
+\tightlist
+\item
+  Kaggle \url{https://www.kaggle.com/}
+\item
+  DrivenData \url{https://www.drivendata.org}
+\item
+  InnoCentive \url{https://www.innocentive.com/ar/challenge/browse}
+\end{itemize}
+
+A list of hackathons updated weekly :
+\url{http://disruptorshandbook.com/big-list-hackathons/} Another good
+source of hackathons : \url{http://www.hackathonsaustralia.com/}
+
 \section{Cloud Computing}\label{cloud-computing}
+
+Cloud computing is a phrase used to describe the act of doing things
+that you could do on your own computer but doing it on a remote computer
+instead. There several reasons why you might choose to do this. In the
+context of data science, this is usually to take advantage of `compute
+clusters'.
+
+Compute clusters are exactly what it sounds like. A cluster of computer
+processors are used together to give you the advantage of their combined
+power which leads to faster data processing. This makes it possible to
+run analysis routines on large datasets (gigabytes, terabytes or even
+petabytes) that could take days or weeks to run on your laptop, in mere
+minutes or hours. There are a few more concepts to understand, but
+essentially the bottom line is that cloud computing makes things faster
+and big datasets more accessible from an analysis point of view.
+
+There are several providers that operate in this space for data science
+purposes. Some of these include:
+
+\begin{itemize}
+\tightlist
+\item
+  Amazon Web Services (AWS)
+  \url{https://aws.amazon.com/big-data/?nc2=h_l3_bh}
+\item
+  Microsoft Azure
+  \url{https://azure.microsoft.com/en-us/services/machine-learning/}
+\item
+  Google Cloud Platform \url{https://cloud.google.com/}
+\end{itemize}
+
+Make sure you claim your \$100 student credit when you sign up to the
+Github student pack \url{https://education.github.com/pack}
 
 \section{\texorpdfstring{The art of `self
 learning'}{The art of self learning}}\label{the-art-of-self-learning}
@@ -1106,11 +1300,13 @@ There are a few things to keep in mind during this journey :
   sometimes even download a pdf version for your personal use).
 \item
   Watch the videos on YouTube on the topic, especially for the more
-  tricky, hands on or mathematical based subjects. Learn from your
-  surroundings. Never underestimate the value others can bring to your
-  journey. This ranges from mentors to other students, some students are
-  further in their journey and can help you along. There are also
-  various meet-ups and networking events surrounding these topics.
+  tricky, hands on or mathematical based subjects.
+\item
+  Learn from your surroundings. Never underestimate the value others can
+  bring to your journey. This ranges from mentors to other students,
+  some students are further in their journey and can help you along.
+  There are also various meet-ups and networking events surrounding
+  these topics.
 \item
   Hands-on experience is by far the best. Join a hackathon, or get an
   internship.
@@ -1125,14 +1321,67 @@ There are a few things to keep in mind during this journey :
 
 \section{Resources and learning}\label{resources-and-learning}
 
+\begin{itemize}
+\item
+  \textbf{Lynda.com} : you have free membership via the Library which
+  gives you access to all the courses,
+  \url{https://www.lib.uts.edu.au/goto?url=https://shib.lynda.com/Shibboleth.sso/InCommon?providerId=https://aaf-login.uts.edu.au/idp/shibboleth}
+\item
+  \textbf{Coursera} : membership is free,
+  \url{https://www.coursera.org/}
+\item
+  \textbf{DataCamp} : you have free membership via MDSI which gives you
+  access to all the courses, \url{https://www.datacamp.com/}, once you
+  join ask to join MDSI group and the courses open up.
+\end{itemize}
+
 \section{MDSI Jargon}\label{mdsi-jargon}
 
-UTS Online : CICAround: FlipAround: R: Python: KNIME: Diigo: Slack:
-WordPress: Lynda.com: MOOC: Hackathon: Azure: AWS: Coursera: GA:
-Graduate Attribute CILO: Course Intended Learning Outcome SILO: Subject
-Intended Learning Outcome
-
-\bibliography{packages.bib,book.bib}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{UTS Online:} UTS' Online learning system
+\item
+  \textbf{CICAround:} CIC's blog environment where students can post
+  blogs about their studies and learning
+\item
+  \textbf{FlipAround:} A student guide developed by students for
+  students in a collaborative environment
+\item
+  \textbf{R:} A coding language used in data science
+\item
+  \textbf{Python:} A coding language used in data science
+\item
+  \textbf{KNIME:} A algorithm building tool
+\item
+  \textbf{Diigo:} A collection of resources contributed by the MDSI
+  community
+\item
+  \textbf{Slack:} A `chat' type application completely driven by the
+  student community.
+\item
+  \textbf{WordPress:} The host of CICAround
+\item
+  \textbf{Lynda.com:} An online learning platform with many free courses
+\item
+  \textbf{MOOC:} Massive Open Online Course
+\item
+  \textbf{Hackathon:} an event, typically lasting several days, in which
+  a large number of people meet to engage in collaborative computer
+  programming to find information in data
+\item
+  \textbf{Azure:} Microsoft's cloud computing platform
+\item
+  \textbf{AWS:} Amazon Web Services' cloud computing services
+\item
+  \textbf{Coursera:} Website host/ service provider of MOOC's
+\item
+  \textbf{GA:} Graduate Attribute
+\item
+  \textbf{CILO:} Course Intended Learning Outcome
+\item
+  \textbf{SILO:} Subject Intended Learning Outcome
+\end{itemize}
 
 
 \end{document}

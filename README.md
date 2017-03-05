@@ -1,3 +1,4 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "Get Started" at https://bookdown.org/ for how to compile this example.
+# FlipAround
+This is a living document collaboratively authored by students in the Master of Data Science and Innovation course at the University of Technology Sydney. For information about the course, please visit: http://www.uts.edu.au/future-students/analytics-and-data-science
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/
+To view the book, go to: https://fliparound.github.io/book

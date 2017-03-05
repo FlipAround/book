@@ -1,0 +1,9 @@
+# Contributors to FlipAround
+```{r echo=FALSE}
+library(readr)
+MDSIpeople = read_csv("Contributors.csv")
+```
+```{r echo=FALSE}
+knitr::kable(MDSIpeople)
+```
+

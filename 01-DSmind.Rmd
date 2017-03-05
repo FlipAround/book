@@ -124,7 +124,7 @@ http://www.tandfonline.com/doi/full/10.1080/08900523.2014.863126?src=recsys
 http://libres.uncg.edu/ir/uncg/f/N_Kshetri_Big_2014.pdf
 
 ## Digital Footprint
-Your digital footprint is the name given to the data that is recorded about you all day every day. It can be the time and phone number of someone that you called, the mobile phone tower that you were connected to at the time of making the call and how long you spoke for. It is the IP address of your computer when you connect to the internet. It is the list of items you pay for when you go through the checkout at the supermarket and the eftpos card number you used to pay for the items. It is the surveillance footage you appear in when you move through monitored public spaces. It is stories you ‘like’ or share on social media sites. It is the journeys that your GPS navigation stores about your travels. It is every email you send and every click you make when you browse the internet.
+Your digital footprint https://en.wikipedia.org/wiki/Digital_footprint is the name given to the data that is recorded about you all day every day. It can be the time and phone number of someone that you called, the mobile phone tower that you were connected to at the time of making the call and how long you spoke for. It is the IP address of your computer when you connect to the internet. It is the list of items you pay for when you go through the checkout at the supermarket and the eftpos card number you used to pay for the items. It is the surveillance footage you appear in when you move through monitored public spaces. It is stories you ‘like’ or share on social media sites. It is the journeys that your GPS navigation stores about your travels. It is every email you send and every click you make when you browse the internet.
 
 Your digital footprint is the inescapable record of your existence by doing nothing more than living your life. It is an important aspect of modern society as many services that you enjoy depend on the data you generate in order to provide critical services. A bank can’t tell you how much money you have without keeping record of your bank transactions. For good or for evil, this data comes embedded with far more information about you. By looking at the kinds of things you spend your money on or the businesses that you spend your money at and the time of day that you spend your money there, it can be determined where you live and where you work.
 
@@ -148,6 +148,6 @@ We suggest that when you apply for a subject with a prerequisite that you also a
 
 This is not always easy, or approved and is subject to each School’s internal views or policies. It is definitely a consideration to take.
 
-You can apply for the subject ( and a waiver of prerequisites if required) early as CIC is not limited by inter-faculty time restrictions. 
+You can apply for the subject ( and a waiver of prerequisites if required) early as CIC is not limited by inter-faculty time restrictions.
 
 Our best tip is : get in early.

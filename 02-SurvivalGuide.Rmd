@@ -16,12 +16,24 @@ First and foremost you need to activate your UTS email address. All official com
  
 For more general information about using UTS systems go to: http://www.uts.edu.au/current-students/managing-your-course/using-uts-systems/uts-student-account
 
+### Enrol in your subjects:
+```{r echo=FALSE}
+knitr::include_graphics("Images/StudentAdmin.png", dpi = NA)
+```
+
+It is really important that you check your enrolment. If you are not enrolled, you cannot participate in your studies. This might seem obvious, however at UTS you need to do more than simply accept your offer. Once you have received and accepted your offer to study, you then need to enrol into your subjects.
+
+If you have not enrolled, you need to login into the My Student Admin https://onestopadmin.uts.edu.au/estudent/Login.aspx portal to enrol. 
+
+For more information about enrollment and a step by step instruction guide, please visit:
+
+http://www.uts.edu.au/current-students/managing-your-course/your-enrolment/how-enrol
 
 ### Get your subject outlines:
 ```{r echo=FALSE}
 knitr::include_graphics("images/UTSOnline.png", dpi = NA)
 ```
-MDSI uses a variety of systems for online teaching and learning. UTSOnline and CICAround are the two primary environments for you to familiarise yourself with. 
+MDSI uses a variety of systems for online teaching and learning. UTSOnline https://online.uts.edu.au/ and CICAround https://ca.uts.edu.au are the two primary environments for you to familiarise yourself with. 
 
 The first thing you need to do after activating your email address is to login to UTSOnline, access your subjects and find your subject outline. Your subject outline contains everything you need to know about your subject for the coming semester. It includes the contact information for your subject co-ordinator, important dates, assessment descriptions and much more. In most cases you can find the answer to any question you might have about your subject addressed in the subject outline.
 
@@ -58,26 +70,13 @@ Slack has proven to be a very useful tool so far. It is completely driven by the
  - You can download the Slack application from https://slack.com/downloads 
  - You can also get the app for IOS, Android and Windows phones.
  - You do not need to pay for a subscription. 
- - Signup to the MDSI group at: https://utsmdsi.slack.com/
+ - Sign Up to the MDSI group at: https://utsmdsi.slack.com/
 
 If you're completely new to Slack, there are some helpful getting started guides at https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides
 
 
 ## Technology
-### Google / Office 365
-```{r echo=FALSE}
-knitr::include_graphics("Images/GoogleAppslogo.png", dpi = NA)
-```
-```{r echo=FALSE}
-knitr::include_graphics("Images/Office365logo.png", dpi = NA)
-```
 
-
-Your university account allows you access to Google Apps and Office 365. 
-
-Google Apps access does not include Gmail. You can not login to your UTS google apps account via gmail or if you are already logged in with a personal gmail account, you will need to log out completely from gmail. Once you have done this, you can log in using your student email address. This will revert you to a UTS login page. Use your UTS student number and password and it will revert you back to the Google Drive, but you will be logged into the drive.
-
-Similarly you can mimic the same steps for Office 365. 
 
 ### R / R Studio
 ```{r echo=FALSE}
@@ -106,6 +105,24 @@ You will use R in many of your subjects and being able to use it well will give 
  - Bookdown https://bookdown.org/ for creating beautiful documents
 
 There are many resources to get you started in doing data science with R. Refer to the resources section for more information.
+
+### Tableau
+```{r echo=FALSE, out.width="30%"}
+knitr::include_graphics("images/Tableaulogo.png", dpi = NA)
+```
+
+Tableau is a tool for visualising data. It is quite powerful in its ability to connect to a variety of data sources both on your computer and through the internet. It is also relatively intuitive to use. 
+
+As a student you can apply to the company for a free license to their commercial desktop version. https://www.tableau.com/academic/students
+
+### Github
+```{r echo=FALSE, out.width="30%"}
+knitr::include_graphics("images/GithubEdulogo.png", dpi = NA)
+```
+
+Github is a fantastic tool to become familiar with.  It is a great place to store code, collaborate with others and even host your own website or blog. 
+
+Github has a really generous collection of free stuff for students. To claim yours head over to: https://education.github.com/pack
 
 ### Python / Rodeo / Jupyter Notebook
 ```{r echo=FALSE}
@@ -151,15 +168,6 @@ Note: Python comes in two different flavours: 2.7 and 3.x. You can start with ei
  - R vs Python for Data Science: The Winner is http://www.kdnuggets.com/2015/05/r-vs-python-data-science.html
  - R vs Python for Data Science: Summary of Modern Advances https://elitedatascience.com/r-vs-python-for-data-science
 
-### Tableau
-```{r echo=FALSE, out.width="30%"}
-knitr::include_graphics("images/Tableaulogo.png", dpi = NA)
-```
-
-Tableau is a tool for visualising data. It is quite powerful in its ability to connect to a variety of data sources both on your computer and through the internet. It is also relatively intuitive to use. 
-
-As a student you can apply to the company for a free license to their commercial desktop version. https://www.tableau.com/academic/students
-
 ### KNIME
 ```{r echo=FALSE, out.width="30%"}
 knitr::include_graphics("images/KNIMElogo.png", dpi = NA)
@@ -183,15 +191,6 @@ knitr::include_graphics("images/QGISlogo.png", dpi = NA)
 
 QGIS is a really nice open source tool for working with geospatial data. To get started just head over to http://www.qgis.org/en/site/index.html
 
-### Github
-```{r echo=FALSE, out.width="30%"}
-knitr::include_graphics("images/GithubEdulogo.png", dpi = NA)
-```
-
-Github is a fantastic tool to become familiar with.  It is a great place to store code, collaborate with other and even host your own website or blog. 
-
-Github has a really generous collection of free stuff for students. To claim yours head over to: https://education.github.com/pack
-
 ### Diigo
 ```{r echo=FALSE, out.width="30%"}
 knitr::include_graphics("images/diigologo.png", dpi = NA)
@@ -206,25 +205,21 @@ Frequently used search tags include:
  
 _“DSI, DAM, Data, big_data, case studies, visualization, teaching_tools, statistics, stats-thnkg, privacy, Algorithms, ethicsVSD, realworldDM, video, Analytics, human-machine, history, data,mining, Data_science, cisco, R, IoE, TEDtalks, values, QSProject, Algorithmic, Accountability, industry, sociotechnical, systems, AI, podcast, professional_practice, portfolio, storytelling, bbc, QS, DMonline, innovation, humanismprofessional, development, open_data, speculative_futures, RealWorld, ted, transdisciplinarity, creativity, algorithm, sociotechnical, BowkerStar, futuresgender, challenge, data-sets, accountability, digital_futures, tools, DM, reading, DVN, equality, infographic”_
 
-### Review
-```{r echo=FALSE, out.width="40%"}
-knitr::include_graphics("images/Reviewlogo.png", dpi = NA)
-```
 
-Review is an assessment tool that is used to mark your work, give you feedback about your work and for you to develop a sense of what is expected by marking your own work before it is assessed by teaching staff. 
-
-Review allows you to see feedback from your lecturer as well as your mark broken down by specific Graduate Attribute (GA) / Course Intended Learning Outcome (CILO) set out by your assignment.
-
-It also allows you to self assess your assignment, which allows the lecturer to see if your expectation is in line with their expectation. It’s important to note that the lecturer will not be able to see your self assessment until after they have saved your mark.
-
-You are also able to see the average of the class as well as where the staff has measure you. 
-
-You can login with your student ID and Password at: 
-https://uts.review-edu.com/uts/
-
+### Google / Office 365
 ```{r echo=FALSE}
-knitr::include_graphics("images/Reviews.jpg", dpi = NA)
+knitr::include_graphics("Images/GoogleAppslogo.png", dpi = NA)
 ```
+```{r echo=FALSE}
+knitr::include_graphics("Images/Office365logo.png", dpi = NA)
+```
+
+
+Your university account allows you access to Google Apps and Office 365. 
+
+Google Apps access does not include Gmail. You can not login to your UTS google apps account via gmail or if you are already logged in with a personal gmail account, you will need to log out completely from gmail. Once you have done this, you can log in using your student email address. This will revert you to a UTS login page. Use your UTS student number and password and it will revert you back to the Google Drive, but you will be logged into the drive.
+
+Similarly you can mimic the same steps for Office 365. 
 
 ###SPARK-Plus
 ```{r echo=FALSE, out.width="25%"}
@@ -240,6 +235,25 @@ https://uts.sparkplus.com.au/login.php
 ```{r echo=FALSE}
 knitr::include_graphics("images/spark.jpg", dpi = NA)
 
+```
+
+### Review
+```{r echo=FALSE, out.width="40%"}
+knitr::include_graphics("images/Reviewlogo.png", dpi = NA)
+```
+
+Review is an assessment tool that is used to mark your work, give you feedback about your work and for you to develop a sense of what is expected by marking your own work before it is assessed by teaching staff. 
+
+Review allows you to see feedback from your lecturer as well as your mark broken down by specific GA/CILO set out by your assignment.
+
+It also allows you to self assess your assignment, which allows the lecturer to see if your expectation is in line with their expectation. It’s important to note that the lecturer will not be able to see your self assessment until after they have saved your mark.
+
+You are also able to see the average of the class as well as where the staff has measure you. 
+
+https://uts.review-edu.com/uts/
+
+```{r echo=FALSE}
+knitr::include_graphics("images/Reviews.jpg", dpi = NA)
 ```
 
 ## Writing
@@ -286,21 +300,74 @@ There are some things to consider when writing a white paper:
  - Proofread your document, and ensure someone else reads it before you submit/publish it.
  - Follow the 3-30-3 rule ( you have three seconds to captures your audience's attention from a glance at your piece, if you succeed at capturing their attention then you have 30 more seconds to ensure they continue reading, if you pass the 3-30 rules then your reader will give you three more minutes to make your point).
 
+If you would like to enhance your academic writing skills, you might be interested in have a look at the Academic Phrase Bank: http://www.phrasebank.manchester.ac.uk/
 
-### Assignments
-You will get an assignment brief for each assignment you have due. Its is recommended that you review these briefs and that you follow the detailed instructions set out for you.
+### Assessments
+The majority of your information regarding a subject and the assessments is contained in your subject outline. This is your base document and you should follow it closely. In addition you will get an assignment brief for each assignment you have due. Its is recommended that you review these briefs and that you follow the detailed instructions set out for you.
 
+## Research & Library Access
+Research is something you will do a lot throughout your studies. There are many contexts that will shape the way you research. For the purposes of finding academic peer reviewed sources, some tips below will likely come in very handy.
 
-## Researching
-Explain about subscriptions in Library and access to books. 
+```{r echo=FALSE}
+knitr::include_graphics("Images/UTSLibraryBanner.png", dpi = NA)
+```
 
-The Library has great resources, workshops and tools that will help you during your education if you choose to utilise this tool.
+The Library ( http://www.lib.uts.edu.au) has great resources, workshops and tools that will help you during your education if you choose to utilise them.
 
-The library team will help you wherever they can. 
+```{r echo=FALSE, out.width="30%"}
+knitr::include_graphics("Images/HeadsUp.png", dpi = NA)
+```
 
-It is recommended that you keep an eye out for all their events on http://www.lib.uts.edu.au/events
+If you need some help understanding how to use the library, they have produced some short videos to help you get started: http://www.lib.uts.edu.au/headsup
 
-You can also get more information from the following link: http://www.lib.uts.edu.au/research
+```{r echo=FALSE}
+knitr::include_graphics("Images/HeadsUpResearchers_logo_675.png", dpi = NA)
+```
+
+The library website has an entire section dedicated to research: http://www.lib.uts.edu.au/research
+
+There is also some self paced training modules you can do to help you get the most of what the library can offer for your research.
+http://www.lib.uts.edu.au/headsup-researchers
+
+### Searching the catalogue
+```{r echo=FALSE}
+knitr::include_graphics("Images/LibraryCatalogue.png", dpi = NA)
+```
+
+One of the great things about the library catalogue is that it returns results far beyond the resources held by the library itself. UTS pay subscription fees to many 3rd party resources including journals, publishers and more. The best thing about this is that if you find something that has an online source available, you will likely be able to download a copy to your computer for later reading. 
+
+As an example, the link below will take you some search results for the term “Data science” and was then filtered to only show ‘online’ resources. 
+
+http://find.lib.uts.edu.au/search?Ntx=matchallpartial&Ntk=All&N=4294967183&Ntt=data%20science
+
+If you click on the ‘Available’ link underneath each resource, it will then offer you the option of launching the electronic resource.
+
+### Databases & Articles
+```{r echo=FALSE, out.width="40%"} 
+knitr::include_graphics("Images/LibraryDatabases.png", dpi = NA)
+```
+
+If you prefer to search specific sources, you can browse the databases section for 3rd party providers. This includes sources that UTS subscriptions that allow you access as a student.
+
+Similarly if you wish to focus your search for specific journal articles rather than journals or books, the ‘Articles’ button is a great place to go.
+
+### Referencing
+```{r echo=FALSE}
+knitr::include_graphics("Images/RefGuide.png", dpi = NA)
+```
+
+It is really important that you get used to referencing from the start. UTS uses the Harvard Referencing style. Fortunately there is an interactive referencing guide available through the library to make things easier:
+
+http://www.lib.uts.edu.au/help/referencing
+
+Make sure to browse through some of the other links at the above link. You might find some other useful tips (tools).
+
+### Library events & tours
+```{r echo=FALSE, out.width="50%"}
+knitr::include_graphics("Images/LibraryEvents.png", dpi = NA)
+```
+
+The library team will help you wherever they can. It is recommended that you keep an eye out for all their events on http://www.lib.uts.edu.au/events
 
 The following events, particularly for MDSI students, are coming up in the next month and below are links where you can register.
 
@@ -316,8 +383,8 @@ Tue, 14 March, 2017
 An interactive tour (it's a scavenger hunt) of the UTS Library services and facilities for MDSI students. Meet in the Library foyer.
 https://www.lib.uts.edu.au/event/609880/mdsi-library-tour-and-scavenger-hunt
 
+## Professional Experience
 
-## Practice
 At times Industry will approach CIC for students who might be interested in internships. These are posted by the CIC:MDSI team in CICAround whenever these possibilities comes up.
 
 You can find the postings on CICAround (https://ca.uts.edu.au/blog/)
@@ -436,35 +503,22 @@ There are a few things to keep in mind during this journey :
 
 
 ## Resources and learning
+Online short courses:
+
  - **Lynda.com** : you have free membership via the Library which gives you access to all the courses, https://www.lib.uts.edu.au/goto?url=https://shib.lynda.com/Shibboleth.sso/InCommon?providerId=https://aaf-login.uts.edu.au/idp/shibboleth
-
  - **Coursera** : membership is free, https://www.coursera.org/
-
  - **DataCamp** : you have free membership via MDSI which gives you access to all the courses, https://www.datacamp.com/, once you join ask to join MDSI group and the courses open up.
 
+Online Books:
 
-## MDSI Jargon
+ - **R for Data Science** by Garrett Grolemund and Hadley Wickham - http://r4ds.had.co.nz/
+ - **Applied Predictive Modelling** by Max Kuhn - available via the library https://link-springer-com.ezproxy.lib.uts.edu.au/book/10.1007%2F978-1-4614-6849-3 (requires login with yoru student ID and password)
+ - **Python Data Science** by Jake VanderPlas https://github.com/jakevdp/PythonDataScienceHandbook
 
- - **UTS Online:** UTS’ Online learning system
- - **CICAround:** CIC’s blog environment where students can post blogs about their studies and learning
- - **FlipAround:** A student guide developed by students for students in a collaborative environment
- - **R:** A coding language used in data science
- - **Python:** A coding language used in data science
- - **KNIME:** A algorithm building tool
- - **Diigo:** A collection of resources contributed by the MDSI community
- - **Slack:** A ‘chat’ type application completely driven by the student community.
- - **WordPress:** The host of CICAround
- - **Lynda.com:** An online learning platform with many free courses
- - **MOOC:** Massive Open Online Course 
- - **Hackathon:** an event, typically lasting several days, in which a large number of people meet to engage in collaborative computer programming to find information in data
- - **Azure:** Microsoft’s cloud computing platform
- - **AWS:** Amazon Web Services’ cloud computing services
- - **Coursera:** Website host/ service provider of MOOC’s
- - **GA:** Graduate Attribute
- - **CILO:** Course Intended Learning Outcome
- - **SILO:** Subject Intended Learning Outcome
+Github repositories with great links:
 
-
-
-
-
+ - **Free programming books** https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python
+ - **Python Data Science tutorials:** https://github.com/ujjwalkarn/DataSciencePython
+ - **R Data Science tutorials:** https://github.com/ujjwalkarn/DataScienceR
+ - **Machine learning & Deep learning tutorials:** https://github.com/ujjwalkarn/Machine-Learning-Tutorials/blob/master/README.md
+ - **Some more Github resources and corners of the web to explore:** https://www.analyticsvidhya.com/blog/2016/09/most-active-data-scientists-free-books-notebooks-tutorials-on-github/

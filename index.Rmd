@@ -1,6 +1,6 @@
 --- 
 title: "FlipAround"
-author: "Authored by, and for MDSI students"
+author: Authored by, and for [MDSI students][Contributors to FlipAround]
 date: "V:`r Sys.Date()`"
 # date: "`r format(Sys.Date(), "%d-%m-%Y")`"    <--- Trying to rearrange the date format. bookdown doesn't like it. leaving this here as a reminder to fix it.
 site: bookdown::bookdown_site
@@ -15,6 +15,10 @@ description: "This is a living document collaboratively authored by students in 
 
 # Welcome
 
+The purpose of this document is to ensure that all MDSI students have a source that will help to ‘wing’ the ride that is MDSI, to ensure that something exists to help the hectic ride that is Data Science and provides easy resources and easy links to information that can help you.
+
+## Welcome message
+
 MDSI is unique in its approach and feel. MDSI is a ‘boutique degree’ which means we are a small tight-knit data family which means the contacts you walk out (really) knowing are going to be more valuable than the skills you learn. In terms of content, our point of difference is the innovation in our name. We take our innovation component as seriously as data science, and is ingrained in everything that’s taught. For us, a data science degree was our innovation (we were the first of its kind in Australia), and in the rapidly changing context that is data, the ability to innovate and adapt is a pretty great point of difference for you too.
 
 Data science is a collaborative discipline. Students in the MDSI program get hands on experience of working in teams to formulate and solve real-life data science problems. Most courses focus on techniques to solve problems, but spend very little time (if any) on how problems should be formulated. The MDSI program is structured in a way that helps students learn this tacit, but crucial skill.
@@ -27,25 +31,37 @@ Welcome, and good luck on your MDSI journey
 
 Getting started on your MDSI journey can be somewhat overwhelming. So to help you ease into life as an MDSI student, the following checklist will help you to get up and running as painlessly as possible.
 
-  - Do your statistics pre-flight test
-  - Activate UTS student email
-  - Forward yoru UTS student email if required
-  - Get the Subject Outlines
-  - Activate and personalise CICAround
-  - Join the Slack Channel
-  - Do your CLARA profile
-  - Log into Diigo
-  - Log into Review
-  - Log into SPARK
-  - Test your Google Drive
-  - Test your Office 365 Drive
-  - Download R & R Studio
-  - Download Python & Rodeo
-  - Download Tableau
-  - Download KNIME
-  - Find free stuff
+ - Do your statistics pre-flight test
+ - Activate UTS student email
+ - Forward UTS student email if required
+ - Enrol in your subjects
+ - Review Subject Outlines
+ - Activate and personalise CICAround
+ - Join the Slack Channel
+ - Do your CLARA profile
+ - Download R & R Studio
+ - Download Tableau
+ - Activate Github
+ - Download Python & Rodeo (optional)
+ - Download Rapidminer (optional)
+ - Test your Google Drive
+ - Test your Office 365 Drive
+ - Download Quantum GIS (optional)
+ - Download KNIME (optional)
+ - Log into Diigo
+ - Log into SPARK
+ - Log into Review
+
   
 ## Pre-flight tests
 
 MDSI statistics pre-flight test:
 http://www.uts.edu.au/future-students/analytics-and-data-science/essential-information/mdsi-statistics-pre-flight-test
+
+## MDSI Jargon
+```{r echo=FALSE}
+MDSIJargon = read.csv("MDSIJargon.csv")
+knitr::kable(MDSIJargon)
+```
+
+

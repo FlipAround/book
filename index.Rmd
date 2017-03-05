@@ -1,6 +1,6 @@
 --- 
 title: "FlipAround"
-author: Authored by, and for [MDSI students][Contributors to FlipAround]
+author: "Authored by, and for MDSI students"
 date: "V:`r Sys.Date()`"
 # date: "`r format(Sys.Date(), "%d-%m-%Y")`"    <--- Trying to rearrange the date format. bookdown doesn't like it. leaving this here as a reminder to fix it.
 site: bookdown::bookdown_site

@@ -1,3 +1,10 @@
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
 bookdown::gitbook:
   css: style.css
   config:
@@ -29,11 +36,4 @@ bookdown::gitbook:
       weibo: no
       instapper: no
       vk: no
-      all: ['facebook', 'google', 'twitter', 'weibo', 'instapaper']
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
-bookdown::epub_book: default
+      all: ['facebook', 'twitter']

@@ -14,6 +14,9 @@ description: "This is a living document collaboratively authored by students in 
 ---
 
 # Welcome
+```{r echo=FALSE}
+knitr::include_graphics("Images/FAlogo.png", dpi = NA)
+```
 
 The purpose of this document is to ensure that all MDSI students have a source that will help to ‘wing’ the ride that is MDSI, to ensure that something exists to help the hectic ride that is Data Science and provides easy resources and easy links to information that can help you.
 

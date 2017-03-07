@@ -105,7 +105,7 @@ The competencies assessment exercise covers the following steps:
  6. Provide feedback and suggestions for the improvement of the current list of competencies, descriptions etc.
 
 
-## Ethics amd Privacy
+## Ethics and Privacy
 Its important to understand that security, privacy and ethics are three different things, although heavily intertwined in the ‘internet of things’.
 
 What is ethical when it comes to data and the internet of things? Is privacy having a login or not being identifiable as an individual? 

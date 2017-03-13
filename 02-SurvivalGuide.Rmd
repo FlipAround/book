@@ -4,7 +4,7 @@
 
 ### Your UTS email:
 ```{r echo=FALSE}
-knitr::include_graphics("images/UTSmanagecourseBanner.png", dpi = NA)
+knitr::include_graphics("Images/UTSmanagecourseBanner.png", dpi = NA)
 ```
 
 First and foremost you need to activate your UTS email address. All official communications from UTS, subject notifications, MDSI newsletters etc will be sent to this email address. You need to activate your email address before you can access other UTS systems.
@@ -31,7 +31,7 @@ http://www.uts.edu.au/current-students/managing-your-course/your-enrolment/how-e
 
 ### Get your subject outlines:
 ```{r echo=FALSE}
-knitr::include_graphics("images/UTSOnline.png", dpi = NA)
+knitr::include_graphics("Images/UTSOnline.png", dpi = NA)
 ```
 MDSI uses a variety of systems for online teaching and learning. UTSOnline https://online.uts.edu.au/ and CICAround https://ca.uts.edu.au are the two primary environments for you to familiarise yourself with. 
 
@@ -45,7 +45,7 @@ The first thing you need to do after activating your email address is to login t
 
 ### Join the MDSI community:
 ```{r echo=FALSE}
-knitr::include_graphics("images/CAlogo.png", dpi = NA)
+knitr::include_graphics("Images/CAlogo.png", dpi = NA)
 ```
 
 Your next stop should be CICAround. Here you will connect with your peers in an academic capacity. There are discussion forums for your subjects where you can post questions. CICAround most notably is where you will go to blog about your experiences throughout your MDSI journey. The first step is to activate your blog. Then you can browse through the blogs of your new MDSI family and read about their experiences and the things they have learnt.
@@ -60,7 +60,7 @@ Your next stop should be CICAround. Here you will connect with your peers in an 
 
 ### Join the MDSI chatter:
 ```{r echo=FALSE}
-knitr::include_graphics("images/Slacklogo.png", dpi = NA)
+knitr::include_graphics("Images/Slacklogo.png", dpi = NA)
 ```
 
 Slack has proven to be a very useful tool so far. It is completely driven by the student community and is where the MDSI student community goes to socialise, organise BBQs, ask each other for technical help and share useful resources. If you need a quick answer, Slack is the place to go.
@@ -108,7 +108,7 @@ There are many resources to get you started in doing data science with R. Refer 
 
 ### Tableau
 ```{r echo=FALSE, out.width="30%"}
-knitr::include_graphics("images/Tableaulogo.png", dpi = NA)
+knitr::include_graphics("Images/Tableaulogo.png", dpi = NA)
 ```
 
 Tableau is a tool for visualising data. It is quite powerful in its ability to connect to a variety of data sources both on your computer and through the internet. It is also relatively intuitive to use. 
@@ -117,7 +117,7 @@ As a student you can apply to the company for a free license to their commercial
 
 ### Github
 ```{r echo=FALSE, out.width="30%"}
-knitr::include_graphics("images/GithubEdulogo.png", dpi = NA)
+knitr::include_graphics("Images/GithubEdulogo.png", dpi = NA)
 ```
 
 Github is a fantastic tool to become familiar with.  It is a great place to store code, collaborate with others and even host your own website or blog. 
@@ -126,10 +126,10 @@ Github has a really generous collection of free stuff for students. To claim you
 
 ### Python / Rodeo / Jupyter Notebook
 ```{r echo=FALSE}
-knitr::include_graphics("images/Pythonlogo.png", dpi = NA)
+knitr::include_graphics("Images/Pythonlogo.png", dpi = NA)
 ```
 ```{r echo=FALSE}
-knitr::include_graphics("images/Anacondalogo.png", dpi = NA)
+knitr::include_graphics("Images/Anacondalogo.png", dpi = NA)
 ```
 
 Python is a general purpose coding language widely used by the data science community. A great place to start is with Anaconda from Continuum Analytics : https://www.continuum.io/downloads 
@@ -170,7 +170,7 @@ Note: Python comes in two different flavours: 2.7 and 3.x. You can start with ei
 
 ### KNIME
 ```{r echo=FALSE, out.width="30%"}
-knitr::include_graphics("images/KNIMElogo.png", dpi = NA)
+knitr::include_graphics("Images/KNIMElogo.png", dpi = NA)
 ```
 
 KNIME Analytics Platform is an open source solution that enables quick, fast data driven designs for machine learning. Its a visual tool to learn and use when you need to get the job done quickly (without writing any code) and need to create algorithms quickly but you don’t have the time to learn the mathematics behind the algorithms. Its friendly and easy to use to find the hidden ‘story’ in the data. 
@@ -179,21 +179,21 @@ Go to https://www.knime.org/knime-analytics-platform to download KNIME for free.
 
 ### Rapidminer
 ```{r echo=FALSE, out.width="30%"}
-knitr::include_graphics("images/Rapidminerlogo.png", dpi = NA)
+knitr::include_graphics("Images/Rapidminerlogo.png", dpi = NA)
 ```
 
 Rapidminer is another visual tool for doing data analysis, modelling and machine learning. You can get access to their commercial tools using your student status from https://rapidminer.com/educational-program/
 
 ### Quantum GIS
 ```{r echo=FALSE, out.width="20%"}
-knitr::include_graphics("images/QGISlogo.png", dpi = NA)
+knitr::include_graphics("Images/QGISlogo.png", dpi = NA)
 ```
 
 QGIS is a really nice open source tool for working with geospatial data. To get started just head over to http://www.qgis.org/en/site/index.html
 
 ### Diigo
 ```{r echo=FALSE, out.width="30%"}
-knitr::include_graphics("images/diigologo.png", dpi = NA)
+knitr::include_graphics("Images/diigologo.png", dpi = NA)
 ```
 
 A collection of resources contributed by the MDSI community. 
@@ -223,7 +223,7 @@ Similarly you can mimic the same steps for Office 365.
 
 ###SPARK-Plus
 ```{r echo=FALSE, out.width="25%"}
-knitr::include_graphics("images/SPARKlogo.png", dpi = NA)
+knitr::include_graphics("Images/SPARKlogo.png", dpi = NA)
 ```
 
 SPARK is an acronym for Self and Peer Assessment Review Kit. This tool has been developed to assist with in class activities as well as being able to self and peer assess assignments. Its also one of the few tools that make group assessments/work easier, in particular to marking.
@@ -233,13 +233,13 @@ SPARK is an acronym for Self and Peer Assessment Review Kit. This tool has been 
 https://uts.sparkplus.com.au/login.php
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/spark.jpg", dpi = NA)
+knitr::include_graphics("Images/spark.jpg", dpi = NA)
 
 ```
 
 ### Review
 ```{r echo=FALSE, out.width="40%"}
-knitr::include_graphics("images/Reviewlogo.png", dpi = NA)
+knitr::include_graphics("Images/Reviewlogo.png", dpi = NA)
 ```
 
 Review is an assessment tool that is used to mark your work, give you feedback about your work and for you to develop a sense of what is expected by marking your own work before it is assessed by teaching staff. 
@@ -253,7 +253,7 @@ You are also able to see the average of the class as well as where the staff has
 https://uts.review-edu.com/uts/
 
 ```{r echo=FALSE}
-knitr::include_graphics("images/Reviews.jpg", dpi = NA)
+knitr::include_graphics("Images/Reviews.jpg", dpi = NA)
 ```
 
 ## Writing

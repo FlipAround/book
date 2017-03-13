@@ -7,3 +7,6 @@ MDSIpeople = read.csv("Contributors.csv")
 knitr::kable(MDSIpeople)
 ```
 
+## If you want to contribute
+
+Go to the [GitHub repo](http://github.com/fliparound/book) for more information.

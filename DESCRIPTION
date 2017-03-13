@@ -1,5 +1,4 @@
-Package: placeholder
-Title: Does not matter.
+Package: FlipAround
+Title: FlipAround.
 Version: 0.0.1
 Imports: bookdown
-Remotes: rstudio/bookdown

@@ -390,7 +390,7 @@ At times Industry will approach CIC for students who might be interested in inte
 You can find the postings on CICAround (https://ca.uts.edu.au/blog/)
 
 ## Data Security
-include a security/privacy sub section (must cover concepts of masking, encrypting etc data)
+Include a security/privacy sub section (must cover concepts of masking, encrypting etc data)
 
 Data security is defined as measures that is used to protect digital privacy as to prevent unauthorised access to computers, databases, websites and other digital items. It also protects data from corruption. 
 

@@ -119,7 +119,13 @@
 <li class="chapter" data-level="3.10" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#resources-and-learning"><i class="fa fa-check"></i><b>3.10</b> Resources and learning</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="data-futures.html"><a href="data-futures.html"><i class="fa fa-check"></i><b>4</b> Data Futures</a><ul>
-<li class="chapter" data-level="4.1" data-path="data-futures.html"><a href="data-futures.html#andrew"><i class="fa fa-check"></i><b>4.1</b> Andrew</a></li>
+<li class="chapter" data-level="4.1" data-path="data-futures.html"><a href="data-futures.html#andrew-on-visualisations"><i class="fa fa-check"></i><b>4.1</b> Andrew: On Visualisations</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="data-futures.html"><a href="data-futures.html#true-value-and-purpose-of-visualisations"><i class="fa fa-check"></i><b>4.1.1</b> True Value and Purpose of Visualisations</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data-futures.html"><a href="data-futures.html#the-effective-use-of-visualisations"><i class="fa fa-check"></i><b>4.1.2</b> The Effective Use of Visualisations</a></li>
+<li class="chapter" data-level="4.1.3" data-path="data-futures.html"><a href="data-futures.html#tools-technologies-trends-and-fads"><i class="fa fa-check"></i><b>4.1.3</b> Tools, Technologies, Trends and Fads</a></li>
+<li class="chapter" data-level="4.1.4" data-path="data-futures.html"><a href="data-futures.html#the-future-of-visualisations"><i class="fa fa-check"></i><b>4.1.4</b> The Future of Visualisations</a></li>
+<li class="chapter" data-level="4.1.5" data-path="data-futures.html"><a href="data-futures.html#bibliography"><i class="fa fa-check"></i><b>4.1.5</b> Bibliography</a></li>
+</ul></li>
 <li class="chapter" data-level="4.2" data-path="data-futures.html"><a href="data-futures.html#corinna"><i class="fa fa-check"></i><b>4.2</b> Corinna</a></li>
 <li class="chapter" data-level="4.3" data-path="data-futures.html"><a href="data-futures.html#herry"><i class="fa fa-check"></i><b>4.3</b> Herry</a></li>
 <li class="chapter" data-level="4.4" data-path="data-futures.html"><a href="data-futures.html#passiona"><i class="fa fa-check"></i><b>4.4</b> Passiona</a></li>
@@ -154,8 +160,111 @@
             <section class="normal" id="section-">
 <div id="data-futures" class="section level1">
 <h1><span class="header-section-number">Chapter 4</span> Data Futures</h1>
-<div id="andrew" class="section level2">
-<h2><span class="header-section-number">4.1</span> Andrew</h2>
+<div id="andrew-on-visualisations" class="section level2">
+<h2><span class="header-section-number">4.1</span> Andrew: On Visualisations</h2>
+<div id="true-value-and-purpose-of-visualisations" class="section level3">
+<h3><span class="header-section-number">4.1.1</span> True Value and Purpose of Visualisations</h3>
+<p>To consider trends in visualisation let’s begin by identifying the core value of data visualisation - what does it do? In general terms we think about things using language but we understand things using imagery. Our memories work better when we link items to images (even unrelated images) as evidenced by many mnemonic tools.</p>
+<p>Data visualisation is the process of presenting information using means other than language as the principal conduit for transfer of meaning/understanding/knowledge. If we think about our senses, 3 of the 5 (touch, smell, taste) are principally involved with our situational awareness. Hearing and sight, whilst obviously having key situational awareness roles, are our principal sources of knowledge awareness/learning at a higher cognitive level. Higher level information that we receive verbally is principally delivered via language - yes we could be learning about sounds themselves in which case there is a combination of non-verbal and verbal but when attending lectures or at work listening to the boss the language is important - doubtless we are also processing a ton of non-verbal messages at work too. At uni and at work our non-situational visible inputs are often computer screens or paper - what Edward Tufte refers to as “flatland”.</p>
+<p>So now consider what we look at in flatland - a lot of words and numbers which require processing via our brain’s language centres (Wernicke’s area, Angular Gyrus, Insular Cortex, etc.) before they can be understood. That understanding is very often visual, do you <strong>see</strong> what I mean? Data visualisations cut out the language middle-man and, because they are not constrained by the bandwidth of our language processing systems, provide a high-speed information channel capable of carrying lots of data very quickly into the “understanding” part of the brain. Language is an incredibly powerful brain function. It is arguably that which lifts humans above other species, more even than opposable thumbs, but it is slow to process compared to image processing - we have been finding meaning in what we see for a lot longer than we have been translating meaning into and out of language.</p>
+<p>All this is by way of suggesting that the purpose of data visualisation is to provide a means to convey understanding/knowledge without the use of language. In practice, of course, language is often used to augment/enhance visualisations (scales, labels, titles, explanatory notes) but in many cases the data is just way too dense to be conveyed in any other manner than a visualisation (think picture, thousand words) as evidenced by the most common, oldest and data dense visualisations we have - maps.</p>
+<div class="figure"><span id="fig:unnamed-chunk-34"></span>
+<img src="Images/Imhof.jpg" alt="School map of the Canton of Zurich 1:150 000, Eduard Imhof and collaborator"  />
+<p class="caption">
+Figure 4.1: School map of the Canton of Zurich 1:150 000, Eduard Imhof and collaborator
+</p>
+</div>
+</div>
+<div id="the-effective-use-of-visualisations" class="section level3">
+<h3><span class="header-section-number">4.1.2</span> The Effective Use of Visualisations</h3>
+<p>This chapter is heavily influenced (as many discussions of visualisation are) by the works of Edward Tufte, the Yoda of data visualisation. Yoda is an appropriate term because his approach is to use many examples of good and bad data visualisation practice and his objective appears to be to guide and advise by providing clarity as to why certain visualisations are easier to understand. He advocates concepts such as:</p>
+<ul>
+<li>minimise use of non-data ink</li>
+<li>remove chartjunk</li>
+<li>avoid harsh palettes</li>
+<li>its okay to have high data density</li>
+</ul>
+<p>Perhaps because of the clarity and almost pervasive uptake of Tufte’s guidelines/advice, we are beginning to see more appropriate (gentler) palettes being offered as default colour schemes and more awareness of perception issues (e.g. Moirè effect) in business intelligence tools such as Tableau and Sisense.</p>
+<div class="figure"><span id="fig:unnamed-chunk-35"></span>
+<img src="Images/moire.png" alt="Moirè Effect - Vibrations in the Image" width="60%" />
+<p class="caption">
+Figure 4.2: Moirè Effect - Vibrations in the Image
+</p>
+</div>
+<p>Before diving into trends and fads though, pause to consider and remember that the objective of data visualisations should be to transfer knowledge and understanding via images rather than words. If we understand things ourselves in a visual way and want to transfer that understanding to our reader then we can most simply do that by presenting that information visually.</p>
+<p>Are you beginning to understand why all those styles of the 90’s with Moirè effects were so bad?</p>
+<p>The effective use of a visualisation to transfer knowledge or information, however, assumes there is knowledge/understanding on the part of the author in the first place. As we turn to tools, technologies, trends and fads consider the risks associated with any mechanism that makes it easier to deliver “information” about data (especially big data) even if the “author” doesn’t understand the data themselves.</p>
+</div>
+<div id="tools-technologies-trends-and-fads" class="section level3">
+<h3><span class="header-section-number">4.1.3</span> Tools, Technologies, Trends and Fads</h3>
+<p>The first, and possibly most significant, trend of data visualisation is the need for it. Big data is presenting a challenge. A lot of information is being gathered and supporting a conclusion or recommendation based on big data often requires some form of supporting encapsulation/presentation of that information. Overly simplifying large volumes of data risks losing the message behind the detail so visualisation is becoming a more important tool. The volume and depth of data, the need to present multivariate analyses, the complexity of the messages all can be addressed by powerful, well-structured data visualisations.</p>
+<div id="how-big-is-yours" class="section level4">
+<h4><span class="header-section-number">4.1.3.1</span> How Big is Yours?</h4>
+<p>In 1990 Tufte mused on:</p>
+<blockquote>
+<p>the essential dilemma of a computer display: at every screen there are two powerful information-processing capabilities, human and computer. Yet all communication between the two must pass the low-resolution, narrow-band video display terminal, which chokes off fast, precise, and complex communication. (p.89, Envisioning Information, 1990, Edward Tufte)</p>
+</blockquote>
+<p>Clearly, screen resolutions have progressed very significantly since 1990 such that HD displays (e.g. Retina) are providing resolution and colour/contrast ranges much closer to the range of the human eye to perceive. To this we are now adding virtual reality, data walls and data rooms. All of these are permutations of “bigger display spaces” to display more data. Its cool and sexy and great for University PR but does it work? (Doubtless this risks being very unpopular with certain groups at UTS) Does the human mind have the capacity to work in the round, holding context from one part of the room to the next? We have trouble maintaining data context flipping a page so I’ll let you decide how easily we maintain that context turning around. So what does that mean for the super-sexy, very expensive displays - use them wisely. They are not without merit or purpose but just throwing stuff up there to show off risks falling into a world that Tufte might describe as “mega chart junk land”.</p>
+<div class="figure"><span id="fig:unnamed-chunk-36"></span>
+<img src="Images/minesbigger.jpg" alt="Mine's Bigger..." width="60%" />
+<p class="caption">
+Figure 4.3: Mine’s Bigger…
+</p>
+</div>
+<p>There is an important philosophical point to be made here. If you really need a 360° view of your data to explain it - do you actually understand it that well? It goes back to the underlying requirement that the author understand the message before trying to convey it.</p>
+<p>With that said, these new display technologies are understandably being played with, people are learning what can be done and how to do it - hopefully as part of that they will also learn if/when they actually need 360° views (VR, data rooms). Don’t let the medium get bigger than the message.</p>
+</div>
+<div id="intelligent-analytics---the-good-the-bad-and-the-less-ugly" class="section level4">
+<h4><span class="header-section-number">4.1.3.2</span> Intelligent Analytics - the Good, the Bad and the Less Ugly</h4>
+<p>Looking at the array of smart business intelligence tools being brought to market (e.g. Tableau, Sisense, Periscope) it is clear that the integration of data access with data analytics is progressing at pace with a big component of these visualisation tools being their libraries of data access layers and data wrangling tools. This work is directed at removing the peripheral effort from the work involved with analysing and presenting information about data. Visualisation tools are being built/interfaced into stream processing solutions/environments like AWS Kinesis to provide real time data visualisations more simply. Open source tools like Kibana and Elasticsearch are providing accessible functionality while R and Python extensions like Shiny apps, ipywidgets and Bokeh plots are providing similar (if less readily accessible) functionality in the machine learning community space.</p>
+<p>The power of the commercial tools to provide tips, advice and suggestions is one of their big commercial selling points and if they are being used for data investigation then this is not a bad thing. It doubtless streamlines the process of investigating and understanding data. If used for this purpose this sort of guided analytics is useful but care needs to be taken that the guidance doesn’t limit the analyst’s ability/willingness to do the hard work to understand all the possible interpretations of the data they are viewing. Worse still, the easier it is to produce good looking visualisations, the greater the temptation/capacity to present data that is not truly understood by the “author” of the visualisation.</p>
+<div class="figure"><span id="fig:unnamed-chunk-37"></span>
+<img src="Images/justpushthis.png" alt="Simple Really"  />
+<p class="caption">
+Figure 4.4: Simple Really
+</p>
+</div>
+<p>A scan of the various (newer) data visualisation tools shows an increasing awareness of how to present data (the less ugly). Being a commercial marketplace there remains (at least in the demo side) a preponderance of the gaudy, flashy visualisations but that is to be expected. The move to the pastel palettes, fainter lines, less cluttered, confronting visuals are all improvements on the clunky, flashy graphics of the 90’s and 2000’s but the balance between understanding the data (the message) and the best way to present it so as to be easily consumed by its observer (the medium) remains a challenge. This is not least because there are a lot of skills required for both those tasks.</p>
+<p>Thus, data analytics is moving forward in:</p>
+<ul>
+<li>improving access to source data</li>
+<li>improving exposure of data/information (interactive visualisations, live visualisations)</li>
+<li>tentative steps to use new display technologies</li>
+<li>better physical (perceptual) properties of visualisations</li>
+</ul>
+</div>
+<div id="recommendations" class="section level4">
+<h4><span class="header-section-number">4.1.3.3</span> Recommendations</h4>
+<p>So what are the best (or least worse) tools options available today? There really is no single recommendation that can be made but the questions to be considered might guide any selection process:</p>
+<ul>
+<li>What is your objective?</li>
+<li>Where is your data?</li>
+<li>How much access and wrangling is required?</li>
+<li>Is your data real-time?</li>
+<li>What are your circumstances (corporate budget, personal or research)?</li>
+<li>What are you priorities (analysis, presentation)?</li>
+<li>What are your legacy technical and political constraints?</li>
+</ul>
+<p>A wily consultant would read this as an opportunity in and of itself.</p>
+<p>The tools are less the issue than the desired outcome. Visualisations make data more accessible - large volumes of data can be represented in a small amount of space, data can be presented in an approachable manner to colleagues, customers and the public. The adoption of data visualisation as an integral part of how information is presented rather than as a fad or gimmick is progressing apace so if you read some of Tufte’s work or that of predecessors and more recent data visualisation advocates and bear the advice in mind when building data visualisations then that is the best start that can be made.</p>
+</div>
+</div>
+<div id="the-future-of-visualisations" class="section level3">
+<h3><span class="header-section-number">4.1.4</span> The Future of Visualisations</h3>
+<p>So, more data, from more sources is being amalgamated more effectively. Businesses and researchers are looking for ways to better transfer understanding of the information buried in those large, complex data sets. What might happen next?</p>
+<p>The gimmicky/fad nature of some of the display formats (VR, data wall, etc.) will diminish with the combination of a better understanding of their applied values and improvements in tools that utilise the capacities of these technologies. This probably isn’t the next big step in data visualisations, however. The big steps happen when components that already exist are integrated more effectively. There is a slow move away from traditional reports-based business operations to dashboards and real-time awareness of the state of a business, market, campaign, etc. The nirvana of business intelligence is to amalgamate all the disparate data sources available to a business in a manner that exposes the underlying forces/reasons behind business trends. The data access tools are facilitating the move towards this nirvana. Once the data is exposed then the next two steps will be:</p>
+<ol style="list-style-type: decimal">
+<li>Use data visualisations as real-time views (or historical real-time views) of the state of a business (move away from tables and reports).</li>
+<li>Provide visualisation interfaces (now we get to Minority Report territory) linked to business models allowing business planners to see the impacts of different business decisions and strategies.</li>
+</ol>
+<p>As to the next area of advanced visualisation research, perhaps image processing neural networks can be used as a starting point to reverse engineer the principal visual vectors of understanding.</p>
+</div>
+<div id="bibliography" class="section level3">
+<h3><span class="header-section-number">4.1.5</span> Bibliography</h3>
+<p>Imhof and collaborator 1969, <em>Schulkarte des Kantons Zürich 1:150 000</em> Orell Füssli AG, Zürich.</p>
+<p>Tufte, Edward 2001, <em>The Visual Display of Quantitactie Information</em>, Graphics Press</p>
+<p>Tufte, Edward 1990, <em>Envisioning Information</em>, Graphics Press</p>
+</div>
 </div>
 <div id="corinna" class="section level2">
 <h2><span class="header-section-number">4.2</span> Corinna</h2>

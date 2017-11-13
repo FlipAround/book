@@ -29,13 +29,13 @@ You might want to use your UTS account - this may make it easier to pick up the 
 
 ### Make a Fork
 
-This is your own little copy of the fliparound sources - you can play to your hear's content with this without stuffing anyone up. To do this, log on to github then go to https://github.com/FlipAround/book which should look a bit like the image below - to make a fork just click on the icon indicated (I had to avoid putting it into my corporate repo but if you are new to Git it houldn't ask too many more questions - if it does, make a note and update this text once you have worked it out.)
+This is your own little copy of the fliparound sources - you can play to your heart's content with this without stuffing anyone up. To do this, log on to github then go to https://github.com/FlipAround/book which should look a bit like the image below - to make a fork just click on the icon indicated (I had to avoid putting it into my corporate repo but if you are new to Git it shouldn't ask too many more questions - if it does, make a note and update this text once you have worked it out.)
 
 ```{r echo=FALSE}
 knitr::include_graphics("Images/GitFork.png", dpi = NA)
 ```
 
-Once the fork is donw you will get a screen that looks much like the normal fliparound screen but the name on the repository (repo) will now be yours.... (see andrewwaites/book). Now you want to clone this so you have a local copy...see arrow.
+Once the fork is done you will get a screen that looks much like the normal fliparound screen but the name on the repository (repo) will now be yours.... (see andrewwaites/book). Now you want to clone this so you have a local copy...see arrow.
 
 ```{r echo=FALSE}
 knitr::include_graphics("Images/AfterFork.png", dpi = NA)
@@ -98,7 +98,7 @@ drwxr-xr-x@ 11 andrewwaites  staff    374 13 Nov 13:53 _book
 
 ### Do Stuff
 
-You can now open up R-Studio, set your working directory to this directory and make edits to the various .Rmd files (how to do markdown is whole other discussion). Make sure that you put any images in the **/Images** subdirectory. Use the existing Rmd files as templates to show you how to do stuff.
+You can now open up R-Studio, set your working directory to this directory and make edits to the various .Rmd files (how to do markdown is a whole other discussion). Make sure that you put any images in the **/Images** subdirectory. Use the existing Rmd files as templates to show you how to do stuff.
 
 So you will probably edit some existing files and maybe create some new image files.
 

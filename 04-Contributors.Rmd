@@ -162,7 +162,51 @@ Now markdown is not being quite as helpful as git because on your screen those *
 Now you need to commit your staged changes which will possibly throw you into some weird command line editor unless you add a message to the command line (really good idea if you don't want to spend 20 minutes googling how to exit an EMACS editor). Then you can push that commit from your local branch to the remote (central) repo and check out the status.
 
 ```{r, engine='bash', eval=FALSE}
-git commit -m "A first cut at a dummies guide to changing fliparound via git repo..."
-git push origin andrew
-
+iMac:book: (andrew) > git commit -m "A first cut at a dummies guide to changing fliparound via git repo..."
+[andrew ff9b185] A first cut at a dummies guide to changing fliparound via git repo...
+ 4 files changed, 157 insertions(+), 1 deletion(-)
+ create mode 100644 Images/AfterFork.png
+ create mode 100644 Images/BookClone.png
+ create mode 100644 Images/GitFork.png
+iMac:book: (andrew) > git push origin andrew
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 739.86 KiB | 30.83 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/andrewwaites/book.git
+   631724a..ff9b185  andrew -> andrew
 ```
+
+Time to go back to your browser and submit a pull request to have your changes merged into the big book.
+
+### Submit a Pull Request
+
+So if you go to your github copy of all this stuff https://github.com/andrewwaites/book/pulls (well yours might have something different where this link says **andrewwaites** like your github username) then click on the big green button that says **New Pull Request**.
+
+```{r echo=FALSE, fig.cap="Wrong Branch"}
+knitr::include_graphics("Images/GitWrongBranchForPullRequest.png", dpi = NA)
+```
+
+When you go to the page you will probably not see any changes to submit - don't panic this is likely because you are on the **master** branch. Just change that **right hand dropdown** (beside **your** fork) to the name of the branch you created (in this case, **andrew**).
+
+```{r echo=FALSE, fig.cap="Start Pull Request"}
+knitr::include_graphics("Images/GitStartSubmitPullRequest.png", dpi = NA)
+```
+
+So now you should see a bunch of changes that you have made that you want to submit. If you press that **Create Pull Request** button again you will get an opportunity to put some comments in and the like....
+
+```{r echo=FALSE, fig.cap="Comments and Such"}
+knitr::include_graphics("Images/GitSubmitPullRequest.png", dpi = NA)
+```
+
+Once you fill out any comments and press the **Submit Pull Request** button again you will get a screen notifying you that the request has gone in but no further progress will be made until it is all accepted.
+
+```{r echo=FALSE, fig.cap="Pending Review"}
+knitr::include_graphics("Images/GitPendingReview.png", dpi = NA)
+```
+
+### Now You Wait
+
+All out of your hands now. Git will email you some updates as the review process progresses and once your changes have been merged and the deploy effected you will see your work appear in fliparound - congratulations and thanks for your efforts.

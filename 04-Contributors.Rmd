@@ -1,9 +1,3 @@
-----
-output:
-  html_document:
-    highlight: pygments
-----
-
 # Contributors to FlipAround
 ```{r echo=FALSE}
 #library(readr)

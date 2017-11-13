@@ -6,7 +6,7 @@
 
 ### On the self-serve data analystics trend and data democratisation
 
-```{r}
+```{r echo=FALSE, fig.cap="A Knowledge Pyramid (taken from Kitchin 2014 and adapted from Adler 1986 and McCandless 2010)"}
 knitr::include_graphics("Images/corinna_36111/corinna_36111_a1_knowledge_pyramid.png", dpi = NA)
 ```
 
@@ -15,11 +15,10 @@ knitr::include_graphics("Images/corinna_36111/corinna_36111_a1_knowledge_pyramid
 
 Most of the structured data that has been collected throughout history has been lost or destroyed (Kitchin 2014). Many other information artefacts are either on a race against time for preservation or lost. The deterioration of the storage media, isolated events such as career changes, retirement or death and the general loss of information from meta-data, memory loss, or poor documentation can contribute to the deterioration of data (Michener 2006). The rate of data loss is also frequently increased after the completion or termination of a project (Michener 2006). An example of the timeline of degradation has been visualised below (Michener 2006).
  
-```{r}
+```{r echo=FALSE, fig.cap="Figure 1: "Example of the Normal degradation in information content associated with data and metadata over time", where "accidents of changes in storage technology may eliminate access to remaining raw data and meta data at any time" (Taken from Michener 2006)"}
 knitr::include_graphics("Images/corinna_36111/corinna_36111_a2_information_entropy.PNG", dpi = NA)
 ```
- 
-Figure 1: "Example of the Normal degradation in information content associated with data and metadata over time", where "accidents of changes in storage technology may eliminate access to remaining raw data and meta data at any time" (Taken from Michener 2006)
+
 
 Generally, the justification for data deletion may have been in part affected by the physical limitations of data storage, or the accidental corruption of data. Advancements in data storage technology promise to impede data deterioration and corruption (Song & Zhu 2009, Service 2017). Thus, the deletion of data will tend to be triggered by choices.
 

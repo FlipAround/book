@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>FlipAround</title>
+  <meta name="description" content="This is a living document collaboratively authored by students in the Master of Data Science and Innovation course at UTS">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+
+  <meta property="og:title" content="FlipAround" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a living document collaboratively authored by students in the Master of Data Science and Innovation course at UTS" />
+  <meta name="github-repo" content="fliparound/book" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="FlipAround" />
+  
+  <meta name="twitter:description" content="This is a living document collaboratively authored by students in the Master of Data Science and Innovation course at UTS" />
+  
+
+<meta name="author" content="Authored by, and for MDSI students">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="a-survival-guide-to-mdsi.html">
+<link rel="next" href="contributors-to-fliparound.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">FlipAround</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> date: “13-11-2017” &lt;— Trying to rearrange the date format. bookdown doesn’t like it. leaving this here as a reminder to fix it.</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#welcome-message"><i class="fa fa-check"></i><b>1.1</b> Welcome message</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#checklist-of-things-to-do"><i class="fa fa-check"></i><b>1.2</b> Checklist of things to do</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#pre-flight-tests"><i class="fa fa-check"></i><b>1.3</b> Pre-flight tests</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#mdsi-jargon"><i class="fa fa-check"></i><b>1.4</b> MDSI Jargon</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="the-data-science-mindset.html"><a href="the-data-science-mindset.html"><i class="fa fa-check"></i><b>2</b> The data science mindset</a><ul>
+<li class="chapter" data-level="2.1" data-path="the-data-science-mindset.html"><a href="the-data-science-mindset.html#clara"><i class="fa fa-check"></i><b>2.1</b> CLARA</a></li>
+<li class="chapter" data-level="2.2" data-path="the-data-science-mindset.html"><a href="the-data-science-mindset.html#data-science-professional-competencies"><i class="fa fa-check"></i><b>2.2</b> Data Science Professional Competencies</a></li>
+<li class="chapter" data-level="2.3" data-path="the-data-science-mindset.html"><a href="the-data-science-mindset.html#ethics-and-privacy"><i class="fa fa-check"></i><b>2.3</b> Ethics and Privacy</a></li>
+<li class="chapter" data-level="2.4" data-path="the-data-science-mindset.html"><a href="the-data-science-mindset.html#digital-footprint"><i class="fa fa-check"></i><b>2.4</b> Digital Footprint</a></li>
+<li class="chapter" data-level="2.5" data-path="the-data-science-mindset.html"><a href="the-data-science-mindset.html#opportunity-for-overseas-exchange"><i class="fa fa-check"></i><b>2.5</b> Opportunity for overseas exchange</a></li>
+<li class="chapter" data-level="2.6" data-path="the-data-science-mindset.html"><a href="the-data-science-mindset.html#electives"><i class="fa fa-check"></i><b>2.6</b> Electives</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html"><i class="fa fa-check"></i><b>3</b> A ‘survival guide’ to MDSI</a><ul>
+<li class="chapter" data-level="3.1" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#first-steps"><i class="fa fa-check"></i><b>3.1</b> First steps</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#your-uts-email"><i class="fa fa-check"></i><b>3.1.1</b> Your UTS email:</a></li>
+<li class="chapter" data-level="3.1.2" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#enrol-in-your-subjects"><i class="fa fa-check"></i><b>3.1.2</b> Enrol in your subjects:</a></li>
+<li class="chapter" data-level="3.1.3" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#get-your-subject-outlines"><i class="fa fa-check"></i><b>3.1.3</b> Get your subject outlines:</a></li>
+<li class="chapter" data-level="3.1.4" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#join-the-mdsi-community"><i class="fa fa-check"></i><b>3.1.4</b> Join the MDSI community:</a></li>
+<li class="chapter" data-level="3.1.5" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#join-the-mdsi-chatter"><i class="fa fa-check"></i><b>3.1.5</b> Join the MDSI chatter:</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#technology"><i class="fa fa-check"></i><b>3.2</b> Technology</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#r-r-studio"><i class="fa fa-check"></i><b>3.2.1</b> R / R Studio</a></li>
+<li class="chapter" data-level="3.2.2" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#tableau"><i class="fa fa-check"></i><b>3.2.2</b> Tableau</a></li>
+<li class="chapter" data-level="3.2.3" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#github"><i class="fa fa-check"></i><b>3.2.3</b> Github</a></li>
+<li class="chapter" data-level="3.2.4" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#python-rodeo-jupyter-notebook"><i class="fa fa-check"></i><b>3.2.4</b> Python / Rodeo / Jupyter Notebook</a></li>
+<li class="chapter" data-level="3.2.5" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#knime"><i class="fa fa-check"></i><b>3.2.5</b> KNIME</a></li>
+<li class="chapter" data-level="3.2.6" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#rapidminer"><i class="fa fa-check"></i><b>3.2.6</b> Rapidminer</a></li>
+<li class="chapter" data-level="3.2.7" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#quantum-gis"><i class="fa fa-check"></i><b>3.2.7</b> Quantum GIS</a></li>
+<li class="chapter" data-level="3.2.8" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#diigo"><i class="fa fa-check"></i><b>3.2.8</b> Diigo</a></li>
+<li class="chapter" data-level="3.2.9" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#google-office-365"><i class="fa fa-check"></i><b>3.2.9</b> Google / Office 365</a></li>
+<li class="chapter" data-level="3.2.10" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#review"><i class="fa fa-check"></i><b>3.2.10</b> Review</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#writing"><i class="fa fa-check"></i><b>3.3</b> Writing</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#blogs"><i class="fa fa-check"></i><b>3.3.1</b> Blogs</a></li>
+<li class="chapter" data-level="3.3.2" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#white-papers"><i class="fa fa-check"></i><b>3.3.2</b> White papers</a></li>
+<li class="chapter" data-level="3.3.3" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#assessments"><i class="fa fa-check"></i><b>3.3.3</b> Assessments</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#research-library-access"><i class="fa fa-check"></i><b>3.4</b> Research &amp; Library Access</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#searching-the-catalogue"><i class="fa fa-check"></i><b>3.4.1</b> Searching the catalogue</a></li>
+<li class="chapter" data-level="3.4.2" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#databases-articles"><i class="fa fa-check"></i><b>3.4.2</b> Databases &amp; Articles</a></li>
+<li class="chapter" data-level="3.4.3" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#referencing"><i class="fa fa-check"></i><b>3.4.3</b> Referencing</a></li>
+<li class="chapter" data-level="3.4.4" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#library-events-tours"><i class="fa fa-check"></i><b>3.4.4</b> Library events &amp; tours</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#professional-experience"><i class="fa fa-check"></i><b>3.5</b> Professional Experience</a></li>
+<li class="chapter" data-level="3.6" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#data-security"><i class="fa fa-check"></i><b>3.6</b> Data Security</a></li>
+<li class="chapter" data-level="3.7" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#hackathons"><i class="fa fa-check"></i><b>3.7</b> Hackathons</a></li>
+<li class="chapter" data-level="3.8" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#cloud-computing"><i class="fa fa-check"></i><b>3.8</b> Cloud Computing</a></li>
+<li class="chapter" data-level="3.9" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#the-art-of-self-learning"><i class="fa fa-check"></i><b>3.9</b> The art of ‘self learning’</a></li>
+<li class="chapter" data-level="3.10" data-path="a-survival-guide-to-mdsi.html"><a href="a-survival-guide-to-mdsi.html#resources-and-learning"><i class="fa fa-check"></i><b>3.10</b> Resources and learning</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-futures.html"><a href="data-futures.html"><i class="fa fa-check"></i><b>4</b> Data Futures</a><ul>
+<li class="chapter" data-level="4.1" data-path="data-futures.html"><a href="data-futures.html#andrew"><i class="fa fa-check"></i><b>4.1</b> Andrew</a></li>
+<li class="chapter" data-level="4.2" data-path="data-futures.html"><a href="data-futures.html#corinna"><i class="fa fa-check"></i><b>4.2</b> Corinna</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="data-futures.html"><a href="data-futures.html#on-the-self-serve-data-analystics-trend-and-data-democratisation"><i class="fa fa-check"></i><b>4.2.1</b> On the self-serve data analystics trend and data democratisation</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-futures.html"><a href="data-futures.html#imagining-data-futures-the-storage-and-preservation-of-human-data-and-its-legacy"><i class="fa fa-check"></i><b>4.2.2</b> Imagining Data Futures, the storage and preservation of human data and its legacy</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-futures.html"><a href="data-futures.html#herry"><i class="fa fa-check"></i><b>4.3</b> Herry</a></li>
+<li class="chapter" data-level="4.4" data-path="data-futures.html"><a href="data-futures.html#passiona"><i class="fa fa-check"></i><b>4.4</b> Passiona</a></li>
+<li class="chapter" data-level="4.5" data-path="data-futures.html"><a href="data-futures.html#rory"><i class="fa fa-check"></i><b>4.5</b> Rory</a></li>
+<li class="chapter" data-level="4.6" data-path="data-futures.html"><a href="data-futures.html#tracy"><i class="fa fa-check"></i><b>4.6</b> Tracy</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="contributors-to-fliparound.html"><a href="contributors-to-fliparound.html"><i class="fa fa-check"></i><b>5</b> Contributors to FlipAround</a><ul>
+<li class="chapter" data-level="5.1" data-path="contributors-to-fliparound.html"><a href="contributors-to-fliparound.html#if-you-want-to-contribute"><i class="fa fa-check"></i><b>5.1</b> If you want to contribute</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="./"><b>Current editorial team:</b></a></li>
+<li><a href="mailto:zherish.a.opperman@student.uts.edu.au">Zherish Kerkovius</a></li>
+<li><a href="mailto:detlev.r.kerkovius@student.uts.edu.au">Detlev Kerkovius</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FlipAround</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-futures" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Data Futures</h1>
+<div id="andrew" class="section level2">
+<h2><span class="header-section-number">4.1</span> Andrew</h2>
+</div>
+<div id="corinna" class="section level2">
+<h2><span class="header-section-number">4.2</span> Corinna</h2>
+<div id="on-the-self-serve-data-analystics-trend-and-data-democratisation" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> On the self-serve data analystics trend and data democratisation</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">include_graphics</span>(<span class="st">&quot;Images/corinna_36111/corinna_36111_a1_knowledge_pyramid.png&quot;</span>, <span class="dt">dpi =</span> <span class="ot">NA</span>)</code></pre></div>
+<p><img src="Images/corinna_36111/corinna_36111_a1_knowledge_pyramid.png" /><!-- --></p>
+</div>
+<div id="imagining-data-futures-the-storage-and-preservation-of-human-data-and-its-legacy" class="section level3">
+<h3><span class="header-section-number">4.2.2</span> Imagining Data Futures, the storage and preservation of human data and its legacy</h3>
+<p>Most of the structured data that has been collected throughout history has been lost or destroyed (Kitchin 2014). Many other information artefacts are either on a race against time for preservation or lost. The deterioration of the storage media, isolated events such as career changes, retirement or death and the general loss of information from meta-data, memory loss, or poor documentation can contribute to the deterioration of data (Michener 2006). The rate of data loss is also frequently increased after the completion or termination of a project (Michener 2006). An example of the timeline of degradation has been visualised below (Michener 2006).</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">include_graphics</span>(<span class="st">&quot;Images/corinna_36111/corinna_36111_a2_information_entropy.PNG&quot;</span>, <span class="dt">dpi =</span> <span class="ot">NA</span>)</code></pre></div>
+<p><img src="Images/corinna_36111/corinna_36111_a2_information_entropy.PNG" /><!-- --></p>
+<p>Figure 1: “Example of the Normal degradation in information content associated with data and metadata over time”, where “accidents of changes in storage technology may eliminate access to remaining raw data and meta data at any time” (Taken from Michener 2006)</p>
+<p>Generally, the justification for data deletion may have been in part affected by the physical limitations of data storage, or the accidental corruption of data. Advancements in data storage technology promise to impede data deterioration and corruption (Song &amp; Zhu 2009, Service 2017). Thus, the deletion of data will tend to be triggered by choices.</p>
+<p>Information in the form of articles or books were kept in preference to original data. Over time, data was perceived as pre-factual and distinct from information (Kitchin 2014). These books and articles, kept as the aggregated products of studies, had added benefits for preserving privacy where underlying data could no longer be examined in detail. There was no need to hold onto the original data once the meaning of its collection and existence had been fulfilled by a scientific paper (Bowker 2000). Reader’s previously were required to accept on faith that statements made within a scientific paper where proven or disproven correctly by scientific methods (Leahey 2008). Increasingly however, the information stored in databases is seen to be the destination, rather than a means to another end (Bowker 2000). People are gaining better access and ability to view and manipulate data and no longer need to rely solely on publications to obtain information (Dykes 2017, Bowker 2000). In fact, the questions for researchers are sometimes hindered by the format of information in the form of “shelves of reports and proceedings” such as in order to better understand the changes long periods of time (Bowker 2000). In the case of monitoring the ozone layer and other environmental phenomena, using data provides more efficient access to information (Bowker 2000).</p>
+<p>The barriers to accumulating data have been overcome as the use of digital devices becomes more widespread (Floridi 2006). There have been explosive increases in the production and availability of data which influences the demand for higher density data storage solutions (Song &amp; Zhu 2009). Achievements to date in the development of new data storage technologies illustrate that the physical limitations of current storage solutions will be soon overcome. For example, DNA has been used to prototype a high-density data storage method with the capacity to store 215 petabytes (215 million gigabytes) per gram (Service 2017). DNA can encode digitised files by combining the four nucleotides in a unique sequence; where 1.6-bits of a theoretically possible 1.8-bits of data per nucleotide were successfully used in a recent attempt (Service 2017). The use of DNA for data storage opens the possibility to store accurately all of the world’s digitised data for hundreds of thousands of years if kept in a cool dry place (Service 2017). With these kinds of storage conditions available, data can be saved for generations. Scientific data can be of tremendous future value. Data can be used and re-used to inform a variety of communities from scientists, to students, to policy makers and applied for purposes that improve quality of life (Wallis &amp; Borgman 2011). Data are often expensive to produce or impossible to reproduce, so much so that the deleted datasets may have no replacement (Wallis &amp; Borgman 2011). Denying future generations of this commodity comes at a cost to progress.</p>
+<p>Removing some data and not others introduces the risk that certain population samples or data types will be emphasised over others (Bates 2016). This is especially troubling if the remaining data intentionally or unintentionally represents only majority groups. For many research studies, data is taken about a specific population rather than for them (Thorp 2013). In general research errors and bias are not only related to individual titles, rather are still present in forms such as publication bias, availability bias, and source bias (Scmidt &amp; Hunter 2015). Publication bias is often suspected in meta-analysis, since published studies will tend to show results that are statistically significant and have larger effect sizes than unpublished studies (Scmidt &amp; Hunter 2015). Thus, it is also in the interests of the research community to retain as much quality information to balance these effects.</p>
+<p>The value of data as part of a data commons could extend beyond the lifespan of any individual. However, the assertion of the findings derived from old data onto new contexts needs to be done with care. Data corruption is not only confined to physical deterioration. Data, can be conceptualised to have both material as well as social properties (Kitchin 2014). For example, although data based studies conducted on the advantages of circumcision for the prevention of HIV in sub-Saharan Africa have provided adequate evidence for endorsement by the World Health Organisation, generalising these studies to other geographical areas has been contested on the grounds that there was no evidence for a casual mechanism in such studies, along with contextual differences in disease transmission in other parts of the world (Norton 2017). Data and research studies alike are imperfect, where bias, mistakes and social, political, or other contextual baggage exist (Michener 2006). Even whilst standards of collecting or recording data can assist with quality control and subsequent transferability of data, the reuse and detachment from the data collection process also detaches analysts from important contextual knowledge in many fields of study (Kitchin 2014, Bowler 2000, Zimmermann 2008). A study of the reuse of data by ecologists show that the local context is critical to ecologists’ reuse of data (Zimmermann 2008). The knowledge that ecologists acquire through fieldwork for example allows them to recover details about the specific local environment, perhaps too specific to record, to comprehend that data. It is simply not the same when others collect data (Zimmerman 2008). Then it is troubling that the merging of disparate data, into larger composites, is relatively simple despite the complexity of layered disparate social values and meanings (Bowker 2000). Without proper documentation as well as maintenance of original data, this process may become irreversible, and social and ideological data contexts lost (Bowker 2000). Thus, there is a need to salvage meta-data and documentation for current and future data resources. Salvaging data documentation and contexts is akin to the restoration efforts applied to many artefacts over the years and part of assuring a quality historic legacy for the next generation. It is not necessarily legitimate to treat the thoughts or activates of someone long since dead as a relevant contribution to present investigations, especially in abstraction from historical contexts (Craig 2002). In the case of some historical documentation, such as for philosophers like Plato, the authors express ideas intended to transcend time and place (Craig 2002) but in contrast, posts on social media, are often intended to have only momentary relevance (Ursic 2016). The reasons and manner for which data is re-used in the future are unknown. George Washington was likely unaware that his dentures would be out on display for all to see at the Mount Vernon Museum in Virginia, over 200 years after his death. The specific meanings and intentions attached to historic data should be observed for what may be missing (Craig 2002, Ursic 2016, Kitchin 2014).</p>
+<p>Just as historical information can and has been used to contribute to current knowledge, awareness of the atmosphere in which data was produced can add important meaning (Craig 2002).</p>
+<p>“Meta-data are the information necessary to understand and effectively use data, including documentation of the data set contents, context, quality, structure and accessibility”(Michener 2006 p).</p>
+<p>The only hope for long term and scalable use of data, no matter the size is to place importance on creating well-documented and securely archived data.</p>
+<p>As data is deposited into repositories, for reuse and potentially long-term storage, those responsible for the data may be no longer be the originators and authors of that data (Wallis &amp; Borgman 2011). If we extend these points about context into the future, imagine when enough time has passed to radically change the way that language is used. In such a situation, any use of language contained in a data set may potentially become misinterpreted or illegible to this new audience. When the original data creators are long gone, no persons responsible for the data will be available to revise the data. Then regarding those responsible for data, to what extent are they accountable for documenting meta data and data contexts for either newly generated data or re-used data?</p>
+<p>Personal items and information once only available to those in physical proximity to the deceased, are now also accompanied by traces of a person’s activities across the internet. For many organisations, data are collected and deposited into closed ecosystems. Technology companies like Google, Facebook and Apple profit from reselling and sharing data produced by millions of users on their platforms (Ursic 2016). These companies play a role in both data authorship and ownership along with the users. The storing of data does not necessarily change the data ownership, if the human subject is considered a co-author or data owner. Yet, if those managing the data are in control of access and engagement with it (Clark et. al. 2011). Within management of this data and efforts to anonymise and de-identify, the human subjects have more or less relinquished ownership (Clark et. al. 2015). Then, who has the authority to release the data and when are data to be released, if ever? Furthermore, do we each have a right to retrieve our personal public data or is that data considered part of the public domain and digital commons, as a legal “fact” and historical document? Should these data resources remain appart from the common domain, there is also the possibility that a distinction may be made between the “information-rich” and the “information-poor” (Floridi 2006).</p>
+<p>Sometimes the destruction of data has been intentional for the purposes of protecting the privacy of study participants. Data may also be deleted by individuals when the data can no longer be relied upon as accurate or complete (Ursic 2016). Data repositories rely on the deposit of materials from the communities they serve, forming a chain of stakeholders from the data creator to the repository and data user (Wallis &amp; Borgman 2011). With respect to human data ethics and sensitive data, the justification of deletion may be spurred by the responsibilities of the researchers to respect the wishes and privacy of the subjects of study after the purposes of the data have been fulfilled (Clark et. al. 2015). This justification implies consent, however when data is instead harvested passively from the public domain or where the subject’s identity is not available or easily obtainable, it is possible for data to exist without the human subject’s knowledge (Clark et. al. 2015). The new ways that data is retrieved further confound the positions of duty to privacy and ownership of data.</p>
+<p>Whilst concerned with increasing the physical longevity of data storage media, we must also turn to the quality of data and the ways that data contexts, publications and documentation are stored. No assumptions should be made that data without such documentation will be self-explanatory or easily understood by new audiences. No matter how advanced and long-term computer memory becomes, human memory is still limited. Whether the data should remain or whether the data cannot continue its legacy into future generations are notoriously hard decisions to make. Before data can be preserved for reuse in the future, data quality control must be employed and efforts made to ensure the metadata and documentation are also preserved. The original purpose and origins of data aid the responsible reuse of data, otherwise there are ethical and practical implications for future studies. It is likely that the data that is preserved today will exist long after we perish and in this way, we have the advantage of shaping our history, how we are represented and how we add value to new generations. Yet, what will constitute valuable data cannot be known. Instead, if we are to accept that the data stored today is irreplaceable information, we must also accept that its donation has high value. Framing data sets responsibly and ensuring respect and justice for human subjects are important steps to preserving a responsible data legacy.</p>
+<div id="references" class="section level4">
+<h4><span class="header-section-number">4.2.2.1</span> References</h4>
+<p>Bates, J. (2016) Towards a critical data science - the complicated relationship between data and the democratic project, last viewed 10 Nov 2016, <a href="http://blogs.lse.ac.uk/impactofsocialsciences/2016/01/12/towards-a-critical-data-science-data-and-the-democratic-project/" class="uri">http://blogs.lse.ac.uk/impactofsocialsciences/2016/01/12/towards-a-critical-data-science-data-and-the-democratic-project/</a> Bowker, G.C. (2000) Biodiversity Datadiversity, Social Studies of Science, SAGE Publications Ltd; 30(5) 643-683 Clark, K., Duckham, M., Guillemin, M., Hunter, A., McVernon, J., O’Keefe, C., Pitkin, C., Prawer, S., Sinnott, R., Warr, D., and Waycott, J. (2015) Guidelines for the Ethical Use of Digital Data in Human Research: Part B, last viewed 11 Nov 2017, <a href="https://www.carltonconnect.com.au/wp-content/uploads/2015/06/Ethical-Use-of-Digital-Data.pdf" class="uri">https://www.carltonconnect.com.au/wp-content/uploads/2015/06/Ethical-Use-of-Digital-Data.pdf</a> Craig, E., (2002) Philosophy: A Very Short Introduction, Oxford University Press, pp. 684-822 &amp; pp. 822-1051 Dykes, B. (2017) Why Companies Must Close The Data Literacy Divide, last viewed 6 Nov 2017, <a href="https://www.forbes.com/sites/brentdykes/2017/03/09/why-companies-must-close-the-data-literacy-divide/#6c580d8a369d" class="uri">https://www.forbes.com/sites/brentdykes/2017/03/09/why-companies-must-close-the-data-literacy-divide/#6c580d8a369d</a> Floridi, L. (2006), Peering into the Future of the Infosphere, last viewed 10 Nov 2016, <a href="http://tidbits.com/article/8686" class="uri">http://tidbits.com/article/8686</a> Kitchin, R. (2014) The Data Revolution: big data, open data, data infrastructures &amp; their consequences., Sage Publications Inc., London Leahey, E. (2008) Overseeing Research Practice: The Case of Data Editing, Science, Technology &amp; Human Values, SAGE Publications Inc., vol. 33, no. 5, pp. 620 Michener, William K., and Brunt, James W., eds. (2009) Ecological Data: Design, Management and Processing, Hoboken, GB: Wiley-Blackwell, p92-100 Norton, A.T. (2017) Foreskin and the molecular politics of risk, Social Studies of Science, SAGE Publications Inc., vol. 47, no. 5, pp. 655-680 Redman, T.C. (2013), Chapter 1: Data Quality Management Past, Present, and Future: Towards a Management System for Data, Handbook of data quality: research and practice. Springer, New York. Schmidt, F. &amp; Hunter, J. (2015) Methods of meta-analysis, Availability bias, source bias, and publication bias in meta-analysis, SAGE Publications Ltd., London, pp. 513-551 Service, R. (2017) DNA could store all of the world’s data in one room, last viewed 10 Nov 2017, <a href="http://www.sciencemag.org/news/2017/03/dna-could-store-all-worlds-data-one-room" class="uri">http://www.sciencemag.org/news/2017/03/dna-could-store-all-worlds-data-one-room</a> Song, Y., Zhu, D. (2009) Preface, High Density Data Storage - Principle, Technology, and Materials, World Scientific. Online version last viewed 10 Nov 2017, <a href="http://app.knovel.com/hotlink/toc/id:kpHDDSPTM3/high-density-data-" class="uri">http://app.knovel.com/hotlink/toc/id:kpHDDSPTM3/high-density-data-</a> Thorp, J. (2016) Turning Data Around, last viewed 10 Nov 2017, <a href="https://medium.com/memo-random/turning-data-around-7acea1f7479c" class="uri">https://medium.com/memo-random/turning-data-around-7acea1f7479c</a> Wallis, J. C. &amp; Borgman, C. L. (2011). Who is responsible for data? An exploratory study of data authorship, ownership, and responsibility. Proceedings of the American Society for Information Science and Technology, vol. 48, no. 1, pp. 1-10. Zimmerman, A. S. (2008) New Knowledge from Old Data: The Role of Standards in the Sharing and Reuse of Ecological Data, Science, Technology, &amp; Human Values, SAGE Publications Inc., vol. 33, no. 5, pp. 631-652</p>
+</div>
+</div>
+</div>
+<div id="herry" class="section level2">
+<h2><span class="header-section-number">4.3</span> Herry</h2>
+</div>
+<div id="passiona" class="section level2">
+<h2><span class="header-section-number">4.4</span> Passiona</h2>
+</div>
+<div id="rory" class="section level2">
+<h2><span class="header-section-number">4.5</span> Rory</h2>
+</div>
+<div id="tracy" class="section level2">
+<h2><span class="header-section-number">4.6</span> Tracy</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="a-survival-guide-to-mdsi.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="contributors-to-fliparound.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "twitter"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/fliparound/book/edit/master/03-DataFutures.Rmd",
+"text": "Edit"
+},
+"download": [["book.pdf", "PDF"], ["book.epub", "EPUB"]],
+"toc": {
+"collapse": false,
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+},
+"search": true
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -116,7 +116,7 @@ Tufte, Edward 2001, *The Visual Display of Quantitactie Information*, Graphics P
 Tufte, Edward 1990, *Envisioning Information*, Graphics Press
 
 
-## Corinna: On Self-service Analytics Data Democratisation
+## Corinna: Some thoughts on Self-service Analytics and Data Democratisation
 
 The ability to enable evidence based and data driven decision making in the workplace has been evolving in the data science industry through the introduction of self-service data analytics tools. Speculators such as Gartner predict that by 2020, self-service business intelligence applications will make up 80% of all enterprise reporting (Dykes 2016). Self-service analytics seeks to provide novice analysts and non-technical business users with the capability to access and use or manipulate data with the hope that these activities will lead to new knowledge (Rouse 2014). Vendors including Tableau, Power BI and Hyper Anna, amongst others are investing into this trend by combining artificial intelligence solutions or user interfaces to manage the thirst of non-technical users for data. Opening up analytics to wider audiences promises to develop new insights, knowledge and innovation by crowdsourcing minds (Kitchin 2014). Therefore, self-service analytical tools are enablers to the effects of data democratisation, breaking down data silos, and providing access to data when and where it is needed at any given moment (Kitchin 2014).
 

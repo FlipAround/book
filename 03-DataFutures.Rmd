@@ -239,6 +239,8 @@ Zimmerman, A. S. (2008) New Knowledge from Old Data: The Role of Standards in th
 
 The following articles were not required for writing this post but were influential and complementary readings, I recommend exploring these should you have the interest.
 
+Tableau talks about Natural Language Processing and User interfaces for non-technical users as a top 10 trend in 2018: https://www.tableau.com/reports/business-intelligence-trends?utm_campaign=Whitepaper%20-%20BI%20Trends%20-%20Prospect%20-%20APAC%20en-SG%20-%202017-11-16&utm_medium=Email&utm_source=Eloqua&domain=gmail.com&eid=CTBLS000010712266&elqTrackId=df07a602fd9948c0944bf2daa142366d&elq=dcbbe1d12fb5472bbb2a4d246930ef2b&elqaid=26647&elqat=1&elqCampaignId=28130#nlp
+
 Dudley, I. (2016) UNCOMMON SENSE: THE DEMOCRATIZATION OF DATA ANALYSIS, Neilsen Insights last viewed 13 Nov 2017, http://www.nielsen.com/au/en/insights/news/2016/uncommon-sense-the-democratization-of-data-analysis.html
 
 Mallows, C. (2006) Tukey's Paper After 40 Years, Technometrics, American Statistical Association and the American Society for Quality, vol. 48, no. 3

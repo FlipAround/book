@@ -272,8 +272,8 @@ Saunders, N. 2016, Male satin bowerbird in his bower, viewed 18 November 2017, <
 
 ### Ethics of Data and its Use
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/richardwc/2109138285/in/photolist-cwVV7-QVeZxE-Ks1ebA-Xo1vDT-NEs6KQ-K4LpGj-GA9gab-NutFFd-NX5y2K-MYYkjr-MYYjvn-NLJMhE-NLJJtU-NLJHcW-NLJFV7-MZes5b-NX5eNR-NX5dnV-NX5aMe-NX59gP-NX56y4-NX5bNH-NLJr9U-j8ycKg-NPgDVa-NLJq23-NLJnDh-NLJjZE-NX53Y4-NutskL-NLJmsj-NX53fa-NutEiy-MYYiGt-NLJKRy-MZepyj-xYnTxx-xYh7Zy-uuQSHy-sDjiCq-oB1ZW8-as56Ph-9PX2ch-8VyMGY-8Q4gek-7GNb95-4dnTkc-NX5wBv-NLJoJy-Nutr1S" title="Western Bower Bird"><img src="https://farm3.staticflickr.com/2348/2109138285_9310264707.jpg" width="800" height="534" alt="Western Bower Bird"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-Image: (Crook 2005)
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/krysiab/6126773690/in/photolist-akpjn9-d2k7au-bsNjuC-WUQ9E5-iqCokx-hZ7qHj-bpQPP-7LamEj-S9gjcA-pGJSdS-hYcuBE-3upVT-o2GYvX-pN8qoz-nHr6oG-nHs1Ra-nXSYRJ-nZPNqf-nrN9Ci-nZVvVF-8DcczG-nHr6o1-nXSYUj-89hx6u-jYGNkj-bSPS8F-ZfAf7v-6m9v1N-8D95Ya-fQimPG-fQ1LoX-7NZJPM-fQ1Kox-o6xd3s-iQjKgp-nHs1G2-fvuET-nrMQsm-dnSqg7-96Vsjs-e98xBA-aePHni-yWn86z-bZ2Re-9F4eG2-7MYr8M-bvhsUp-nXSYtu-nHr9hA-iSbfTh" title="For me?"><img src="https://farm7.staticflickr.com/6189/6126773690_fab83a54f5_z.jpg" width="800" height="523.75" alt="For me?"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+Image: (Christine 2011)
 
 
 I wanted to look at the existing frameworks that focus on working with data. I am particularly interested in the different approaches people have proposed for working ethically with sensitive data. Sensitive data contains information about the individual that most people would not be comfortable sharing. Examples that come to mind are health records, police records and the ones I am specifically interested in, the records of children who were removed from their parents by Family and Community Services (FACS). The last example is particularly problematic because children, by definition, could never give consent to the release of this information. 
@@ -289,7 +289,7 @@ Developing an ethical lens is becoming more crucial to all of us being able to a
 
 #### Bibliography
 
-Crook, R. 2005, Western Bower Bird, viewed 18 November 2017, <https://www.flickr.com/photos/richardwc/2109138285/>.
+Christine 2011, For me?, viewed 19 November 2017, <https://www.flickr.com/photos/krysiab/6126773690/>.
 
 Dixon, A. & Isaac, W. 2017, 'Why big-data analysis of police activity is inherently biased', The Conversation, viewed 18 November 2017, <http://theconversation.com/why-big-data-analysis-of-police-activity-is-inherently-biased-72640>.
 
@@ -314,6 +314,47 @@ Reynolds, J. 2016, 'How One Person’s Negative Attitude Affects the Whole Work 
 Riso, B., Tupasela, A., Vears, D.F., Felzmann, H., Cockbain, J., Loi, M., Kongsholm, N.C.H., Zullo, S. & Rakic, V. 2017, 'Ethical sharing of health data in online platforms – which values should be considered?', Life Sciences, Society and Policy, vol. 13, no. 1, p. 12.
 
 Wilson, R., Butters, O., Avraam, D., Baker, J., Tedds, J., Turner, A., Murtagh, M. & Burton, P. 2017, 'DataSHIELD – New Directions and Dimensions', Data Science Journal, vol. 16, no. 0, viewed 17 November 2017, <http://datascience.codata.org/articles/10.5334/dsj-2017-021/>.
+
+
+### Navigating the Unknown
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/richardwc/2109138285/in/photolist-cwVV7-QVeZxE-Ks1ebA-Xo1vDT-NEs6KQ-K4LpGj-GA9gab-NutFFd-NX5y2K-MYYkjr-MYYjvn-NLJMhE-NLJJtU-NLJHcW-NLJFV7-MZes5b-NX5eNR-NX5dnV-NX5aMe-NX59gP-NX56y4-NX5bNH-NLJr9U-j8ycKg-NPgDVa-NLJq23-NLJnDh-NLJjZE-NX53Y4-NutskL-NLJmsj-NX53fa-NutEiy-MYYiGt-NLJKRy-MZepyj-xYnTxx-xYh7Zy-uuQSHy-sDjiCq-oB1ZW8-as56Ph-9PX2ch-8VyMGY-8Q4gek-7GNb95-4dnTkc-NX5wBv-NLJoJy-Nutr1S" title="Western Bower Bird"><img src="https://farm3.staticflickr.com/2348/2109138285_9310264707.jpg" width="800" height="534" alt="Western Bower Bird"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+Image: (Crook 2005)
+
+
+Given the lack of any research or discussions about the area I am interested in discussing makes it a little challenging to learn from others. There are not many times in life you get a chance to be the first to think about something. There is also the possibility that these thoughts are uninteresting, so they have never gone anywhere. Taking the optimistic view, I will assume the former until it becomes evident that the latter is true. With a lack of anything specific in my area of interest, I cast the net a bit a wider and looked at more general articles that I can use to inform my thinking.
+
+I found [this article](https://dupress.deloitte.com/dup-us-en/deloitte-review/issue-15/behavioral-data-driven-decision-making.html) from Guszcza & Richardson (2014) fascinating for the two points they made. The first is that they debunk the myth of needing big data to get big insights, instead, showing how working in analytically and in a disciplined manner with currently available normal data leads to results. Having just completed my work at the NSW Data Analytics Centre, I observed that almost all their work does not involve *Big Data* or anything close to it. However the work they do have real impacts and delivers actual outcomes that change people’s lives.
+
+The other point Guszcza & Richardson (2014) make is that social and behavioural data is highly predictive of many outcomes that are not at first glance obvious such as religious beliefs or pollical leanings. Using a device that is continually measuring features such as “people’s tones of voice, body language, and communication patterns” (Guszcza & Richardson 2014, p.172) can be used to predict such personal traits as dating behaviour and the outcomes from salary negotiations and other workplace outcomes. I wonder what would happen if the government started to want us to all wear these devices so that they could intervene early to help protect us from ourselves or others.
+
+Sivarajah et al. (2017) conducted a literature review of all the papers relating to [Big Data challenges and analytical methods](http://www.sciencedirect.com/science/article/pii/S014829631630488X) between 1996 to 2015. Their findings are interesting, mainly looking at the total number of papers published, which reflect the sharp rise in interest in big data since 2013.
+
+```{r echo=FALSE, fig.cap="Sivarajah et al. (2017) - Total number of papers published (from 1996 to 2015)"}
+knitr::include_graphics("Images/DataFutures/Rory/rory_36111_i1.png", dpi = NA)
+```
+
+The top four countries produced 486 papers and China accounted for 49% of those, with Australia providing 10%. Given the plethora of work coming from China and the US (79%), it is important to note how well Australia stands out as a percentage of the size of its population. Australia’ population is currently 24 Million, and even though the UK’s population is 275% larger, they produced an equivalent amount of papers. The figures are even more impressive when considering the size of the population of the US (1,345%) and China (5,742%) (World Bank 2016). 
+
+```{r echo=FALSE, fig.cap="Sivarajah et al. (2017) - Frequency of researchers from different geographical locations (from 1996 to 2015)"}
+knitr::include_graphics("Images/DataFutures/Rory/rory_36111_i2.png", dpi = NA)
+```
+
+The fact that 74% of the papers were either conceptual/descriptive/theoretical or analytical demonstrates that there is not much thinking occurring the space of application of techniques and the impacts of that. Developing my understanding of this area is what I am interested in exploring further. 
+
+```{r echo=FALSE, fig.cap="Sivarajah et al. (2017) - Classiﬁcation of research methods (from 1996 to 2015)"}
+knitr::include_graphics("Images/DataFutures/Rory/rory_36111_i3.png", dpi = NA)
+```
+
+
+#### Bibliography
+
+Crook, R. 2005, Western Bower Bird, viewed 18 November 2017, <https://www.flickr.com/photos/richardwc/2109138285/>.
+
+Guszcza, J. & Richardson, B. 2014, 'Two dogmas of big data: Understanding the power of analytics for predicting human behavior', Deloitte Review, no. 15, 28 July, viewed 16 November 2017, <https://dupress.deloitte.com/dup-us-en/deloitte-review/issue-15/behavioral-data-driven-decision-making.html>.
+
+Sivarajah, U., Kamal, M.M., Irani, Z. & Weerakkody, V. 2017, 'Critical analysis of Big Data challenges and analytical methods', Journal of Business Research, vol. 70, no. Supplement C, pp. 263–86.
+World Bank 2016, 'Total Population', The World Bank, viewed 19 November 2017, <https://data.worldbank.org/indicator/SP.POP.TOTL>.
 
 
 

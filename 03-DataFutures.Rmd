@@ -18,7 +18,7 @@ So now consider what we look at in flatland - a lot of words and numbers which r
 All this is by way of suggesting that the purpose of data visualisation is to provide a means to convey understanding/knowledge without the use of language. In practice, of course, language is often used to augment/enhance visualisations (scales, labels, titles, explanatory notes) but in many cases the data is just way too dense to be conveyed in any other manner than a visualisation (think picture, thousand words) as evidenced by the most common, oldest and data dense visualisations we have - maps.
 
 ```{r echo=FALSE, fig.cap="School map of the Canton of Zurich 1:150 000, Eduard Imhof and collaborator"}
-knitr::include_graphics("Images/Imhof.jpg", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/Imhof.jpg", dpi = NA)
 ```
 
 ### The Effective Use of Visualisations
@@ -33,7 +33,7 @@ This chapter is heavily influenced (as many discussions of visualisation are) by
 Perhaps because of the clarity and almost pervasive uptake of Tufte's guidelines/advice, we are beginning to see more appropriate (gentler) palettes being offered as default colour schemes and more awareness of perception issues (e.g. Moirè effect) in business intelligence tools such as Tableau and Sisense.
 
 ```{r echo=FALSE, fig.cap="Moirè Effect - Vibrations in the Image", out.width="60%"}
-knitr::include_graphics("Images/moire.png", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/moire.png", dpi = NA)
 ```
 
 Before diving into trends and fads though, pause to consider and remember that the objective of data visualisations should be to transfer knowledge and understanding via images rather than words. If we understand things ourselves in a visual way and want to transfer that understanding to our reader then we can most simply do that by presenting that information visually. 
@@ -55,7 +55,7 @@ In 1990 Tufte mused on:
 Clearly, screen resolutions have progressed very significantly since 1990 such that HD displays (e.g. Retina) are providing resolution and colour/contrast ranges much closer to the range of the human eye to perceive. To this we are now adding virtual reality, data walls and data rooms. All of these are permutations of "bigger display spaces" to display more data. Its cool and sexy and great for University PR but does it work? (Doubtless this risks being very unpopular with certain groups at UTS) Does the human mind have the capacity to work in the round, holding context from one part of the room to the next? We have trouble maintaining data context flipping a page so I'll let you decide how easily we maintain that context turning around. So what does that mean for the super-sexy, very expensive displays - use them wisely. They are not without merit or purpose but just throwing stuff up there to show off risks falling into a world that Tufte might describe as "mega chart junk land".
 
 ```{r echo=FALSE, fig.cap="Mine's Bigger...", out.width="60%"}
-knitr::include_graphics("Images/minesbigger.jpg", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/minesbigger.jpg", dpi = NA)
 ```
 There is an important philosophical point to be made here. If you really need a 360° view of your data to explain it - do you actually understand it that well? It goes back to the underlying requirement that the author understand the message before trying to convey it.
 
@@ -68,7 +68,7 @@ Looking at the array of smart business intelligence tools being brought to marke
 The power of the commercial tools to provide tips, advice and suggestions is one of their big commercial selling points and if they are being used for data investigation then this is not a bad thing. It doubtless streamlines the process of investigating and understanding data. If used for this purpose this sort of guided analytics is useful but care needs to be taken that the guidance doesn't limit the analyst's ability/willingness to do the hard work to understand all the possible interpretations of the data they are viewing. Worse still, the easier it is to produce good looking visualisations, the greater the temptation/capacity to present data that is not truly understood by the "author" of the visualisation.
 
 ```{r echo=FALSE, fig.cap="Simple Really"}
-knitr::include_graphics("Images/justpushthis.png", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/justpushthis.png", dpi = NA)
 ```
 A scan of the various (newer) data visualisation tools shows an increasing awareness of how to present data (the less ugly). Being a commercial marketplace there remains (at least in the demo side) a preponderance of the gaudy, flashy visualisations but that is to be expected. The move to the pastel palettes, fainter lines, less cluttered, confronting visuals are all improvements on the clunky, flashy graphics of the 90's and 2000's but the balance between understanding the data (the message) and the best way to present it so as to be easily consumed by its observer (the medium) remains a challenge. This is not least because there are a lot of skills required for both those tasks.
 
@@ -123,7 +123,7 @@ The ability to enable evidence based and data driven decision making in the work
 The push for evidence-based thinking in the workplace is justified by a legacy of successful outcomes of this approach in many industries especially medicine. The medical field provides a golden standard of an area where evidence based decision making is clearly valuable. Historically, medicine has relied on funded random controlled trials and other forms of formal research to develop standards for decision making; favouring treatments which had been proven to be most effective in practice (Lumen 2017). By relying on data driven evidence, much of the uncertainty about treatment practices has been removed, further improving the quality of services. Primarily evidence based practices aim to improve the quality of decision making by justifying actions and applying knowledge derived from data. The flow of knowledge development can be represented by the knowledge pyramid below, where data are first abstracted from the world before being processed and repackaged into usable artefacts (Kitchin 2014).
 
 ```{r echo=FALSE, fig.cap="A Knowledge Pyramid (taken from Kitchin 2014 and adapted from Adler 1986 and McCandless 2010)"}
-knitr::include_graphics("Images/corinna_36111_a1_knowledge_pyramid.png", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Corinna/corinna_36111_a1_knowledge_pyramid.png", dpi = NA)
 ```
 
 Traditionally, due to the costs and constraints of generating data, the practices of generating new knowledge with data has been constrained to larger entities that could afford the funding and personnel required (Kitchin 2014, Bowker 2000). Smaller amounts of data were formally collected in studies designed with established methodologies and modes of analysis, as well as rules of conduct (Kitchin 2014, Bowker 2000). There is a long reaching record of producing answers to tailored and specific research questions and iteration on the scientific process. As phenomena become easier to monitor with the help of the digitisation of data, the amount of data, technologies and techniques available become more accessible at a lower cost to time and effort (Brynjolfsson & McAfee 2014). Concerns have arisen over the risks of misinterpretation, and misuse of information generated in the data by untrained users (Marr 2017, Dykes 2016 and Harris 2012).
@@ -231,7 +231,7 @@ On decision making cultures see: https://hbr.org/2012/10/big-data-the-management
 
 ## Passiona
 
-## Rory: On working with Sensitive Data
+## Rory: On Working with Sensitive Data
 
 ### Whatever Happened to CRISP-DM version 2.0?
 

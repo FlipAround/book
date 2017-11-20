@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Data Futures
 
@@ -18,7 +18,7 @@ So now consider what we look at in flatland - a lot of words and numbers which r
 All this is by way of suggesting that the purpose of data visualisation is to provide a means to convey understanding/knowledge without the use of language. In practice, of course, language is often used to augment/enhance visualisations (scales, labels, titles, explanatory notes) but in many cases the data is just way too dense to be conveyed in any other manner than a visualisation (think picture, thousand words) as evidenced by the most common, oldest and data dense visualisations we have - maps.
 
 ```{r echo=FALSE, fig.cap="School map of the Canton of Zurich 1:150 000, Eduard Imhof and collaborator"}
-knitr::include_graphics("Images/Imhof.jpg", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/Imhof.jpg", dpi = NA)
 ```
 
 ### The Effective Use of Visualisations
@@ -33,7 +33,7 @@ This chapter is heavily influenced (as many discussions of visualisation are) by
 Perhaps because of the clarity and almost pervasive uptake of Tufte's guidelines/advice, we are beginning to see more appropriate (gentler) palettes being offered as default colour schemes and more awareness of perception issues (e.g. Moirè effect) in business intelligence tools such as Tableau and Sisense.
 
 ```{r echo=FALSE, fig.cap="Moirè Effect - Vibrations in the Image", out.width="60%"}
-knitr::include_graphics("Images/moire.png", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/moire.png", dpi = NA)
 ```
 
 Before diving into trends and fads though, pause to consider and remember that the objective of data visualisations should be to transfer knowledge and understanding via images rather than words. If we understand things ourselves in a visual way and want to transfer that understanding to our reader then we can most simply do that by presenting that information visually. 
@@ -55,7 +55,7 @@ In 1990 Tufte mused on:
 Clearly, screen resolutions have progressed very significantly since 1990 such that HD displays (e.g. Retina) are providing resolution and colour/contrast ranges much closer to the range of the human eye to perceive. To this we are now adding virtual reality, data walls and data rooms. All of these are permutations of "bigger display spaces" to display more data. Its cool and sexy and great for University PR but does it work? (Doubtless this risks being very unpopular with certain groups at UTS) Does the human mind have the capacity to work in the round, holding context from one part of the room to the next? We have trouble maintaining data context flipping a page so I'll let you decide how easily we maintain that context turning around. So what does that mean for the super-sexy, very expensive displays - use them wisely. They are not without merit or purpose but just throwing stuff up there to show off risks falling into a world that Tufte might describe as "mega chart junk land".
 
 ```{r echo=FALSE, fig.cap="Mine's Bigger...", out.width="60%"}
-knitr::include_graphics("Images/minesbigger.jpg", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/minesbigger.jpg", dpi = NA)
 ```
 There is an important philosophical point to be made here. If you really need a 360° view of your data to explain it - do you actually understand it that well? It goes back to the underlying requirement that the author understand the message before trying to convey it.
 
@@ -68,7 +68,7 @@ Looking at the array of smart business intelligence tools being brought to marke
 The power of the commercial tools to provide tips, advice and suggestions is one of their big commercial selling points and if they are being used for data investigation then this is not a bad thing. It doubtless streamlines the process of investigating and understanding data. If used for this purpose this sort of guided analytics is useful but care needs to be taken that the guidance doesn't limit the analyst's ability/willingness to do the hard work to understand all the possible interpretations of the data they are viewing. Worse still, the easier it is to produce good looking visualisations, the greater the temptation/capacity to present data that is not truly understood by the "author" of the visualisation.
 
 ```{r echo=FALSE, fig.cap="Simple Really"}
-knitr::include_graphics("Images/justpushthis.png", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Andrew/justpushthis.png", dpi = NA)
 ```
 A scan of the various (newer) data visualisation tools shows an increasing awareness of how to present data (the less ugly). Being a commercial marketplace there remains (at least in the demo side) a preponderance of the gaudy, flashy visualisations but that is to be expected. The move to the pastel palettes, fainter lines, less cluttered, confronting visuals are all improvements on the clunky, flashy graphics of the 90's and 2000's but the balance between understanding the data (the message) and the best way to present it so as to be easily consumed by its observer (the medium) remains a challenge. This is not least because there are a lot of skills required for both those tasks.
 
@@ -123,7 +123,7 @@ The ability to enable evidence based and data driven decision making in the work
 The push for evidence-based thinking in the workplace is justified by a legacy of successful outcomes of this approach in many industries especially medicine. The medical field provides a golden standard of an area where evidence based decision making is clearly valuable. Historically, medicine has relied on funded random controlled trials and other forms of formal research to develop standards for decision making; favouring treatments which had been proven to be most effective in practice (Lumen 2017). By relying on data driven evidence, much of the uncertainty about treatment practices has been removed, further improving the quality of services. Primarily evidence based practices aim to improve the quality of decision making by justifying actions and applying knowledge derived from data. The flow of knowledge development can be represented by the knowledge pyramid below, where data are first abstracted from the world before being processed and repackaged into usable artefacts (Kitchin 2014).
 
 ```{r echo=FALSE, fig.cap="A Knowledge Pyramid (taken from Kitchin 2014 and adapted from Adler 1986 and McCandless 2010)"}
-knitr::include_graphics("Images/corinna_36111_a1_knowledge_pyramid.png", dpi = NA)
+knitr::include_graphics("Images/DataFutures/Corinna/corinna_36111_a1_knowledge_pyramid.png", dpi = NA)
 ```
 
 Traditionally, due to the costs and constraints of generating data, the practices of generating new knowledge with data has been constrained to larger entities that could afford the funding and personnel required (Kitchin 2014, Bowker 2000). Smaller amounts of data were formally collected in studies designed with established methodologies and modes of analysis, as well as rules of conduct (Kitchin 2014, Bowker 2000). There is a long reaching record of producing answers to tailored and specific research questions and iteration on the scientific process. As phenomena become easier to monitor with the help of the digitisation of data, the amount of data, technologies and techniques available become more accessible at a lower cost to time and effort (Brynjolfsson & McAfee 2014). Concerns have arisen over the risks of misinterpretation, and misuse of information generated in the data by untrained users (Marr 2017, Dykes 2016 and Harris 2012).
@@ -263,6 +263,136 @@ On decision making cultures see: https://hbr.org/2012/10/big-data-the-management
 
 ## Passiona
 
-## Rory
+## Rory: On Working with Sensitive Data
+
+### Whatever Happened to CRISP-DM version 2.0?
+
+<a data-flickr-embed="true" data-header="false"  href="https://www.flickr.com/photos/nsaunders/22748694318/in/photolist-AEe1gy-6qHavF-6UCcar-ERXU3y-XcYgt9-daARkU-zACgeY-duvH1C-daAREo-zQTuUL-99sbWJ-o5ZEYo-Xj4Z1f-CY4sHk-e82Bk9-XAHwhw-Xj4YJy-jcshhv-vD3AZL-K4LoDs-79ZxJe-6PVPwj-4uWBUW-dAxzQi-4dnTmP-do5wWm-nZPPgy-ohLRJP-fgcHY4-jNn5BB-ikwKN6-iqCokx-hZ7qHj-bpQPP-S9gjcA-pGJSdS-hYcuBE-o2GYvX-pN8qoz-nHr6oG-nHs1Ra-nXSYRJ-nZPNqf-9CDXA7-nU37jU-29rSrd-otBhBv-fSijND-hjiAzf-9giLe6" title="Male satin bowerbird in his bower"><img src="https://farm6.staticflickr.com/5569/22748694318_0d88a88b24.jpg" width="800" height="571" alt="Male satin bowerbird in his bower"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+Image: Saunders (2016)
+
+
+I have searched high and low to find if there was an update to the “Cross Industry Standard Process for Data Mining” that we have been taught is the way to approach a data mining problem. The model was first released back in 1999 and given it is 18 years ago I wanted to see what the latest version contains. According to Piatetsky (2014), a [survey undertaken on KD Nuggets]( https://www.kdnuggets.com/2014/10/crisp-dm-top-methodology-analytics-data-mining-data-science-projects.html) places CRISP-DM still at the top of the methodology pile by a long way (43%). A caveat, there were only 200 responses to the poll (so there is some margin for error). However, a poll is a poll, and given its dominance, the next closest result for ‘My Own’ methodology only got 27.5% of the vote, I am sure that there must have been an update.
+
+Unfortunately, it does not seem to have happened. There was an attempt to start working on version two, but that has faltered, and all activity has stopped. So much so that even the website has closed and there is [nothing there anymore](http://www.crisp-dm.org/). I **LOVE** this post from [Chris McCormick (2007)](http://keithmccormick.com/crisp-dm-20/) in which he talks about having just returned from a meeting about version 2.0 and how it is slated for release that summer! (The summer of 2007). I wonder what happened to it. For me, it talks about energy and impetus and the fact that there was this big new dawn that everyone was excited about, but in the end, the pressures of real life and competing interests win. It is a salutatory lesson in Open Standards and working with them. That said CRISP-DM is a fundamental standard, but it is showing its age, particularly around the ethical use of data and the models that they create. The moral aspect is particularly relevant in the current era of people being concerned about how all this data and its use is impacting them personally. 
+
+I also think that CRISP-DM could do with including more detail around the whole lifecycle including implementation and once the project complets, the final destruction of the data. A more holistic understanding of the elements is captured nicely by Chisholm (2015) in his post [Seven phases of a data lifecycle](https://www.bloomberg.com/professional/blog/7-phases-of-a-data-life-cycle/).  I would also propose that it should refer to if not include the points in [The Nine Laws of Data Mining]( http://www.socdm.org/index.php/methodologies/21-methodologies-9-laws) (Khabaza 2010) suggested by The Society of Data Miners. 
+
+The only attempt I have found to suggest an [update to the CRISP-DM methodology]( https://www.researchgate.net/publication/277775478_CRISP_Data_Mining_Methodology_Extension_for_Medical_Domain) is the one proposed by Niaksu (2015). In it Niaksu (2015, p.108) focuses on the problems specific to the use of data mining in the medical domain and introduces 38 tasks specifically to address the following areas:
+
+> 1.	Mining non-static datasets: multi-relational, temporal and spatial data
+> 2.	Clinical information system interoperability
+> 3.	Semantic data interoperability
+> 4.	Ethical, social and personal data privacy constraints
+> 5.	Active engagement of clinicians in knowledge discovery process
+
+Point four is of special interest in the context of the work that I am focused on as it is the first attempt at looking at the Ethical side of data mining within the CRISP-DM framework. However, it is limited to only the “evaluation of legal requirements and limitations in data usage” (Niaksu 2015, p.104). It does not go far enough in looking at how working with the data could be done ethically considering the social and privacy environment.
+
+#### Bibliography
+
+Chisholm, M. 2015, '7 phases of a data life cycle', Bloomberg for Enterprise, viewed 23 March 2017, <https://www.bloomberg.com/enterprise/blog/7-phases-of-a-data-life-cycle/>.
+
+Khabaza, T. 2010, Nine Laws of Data Mining, Methodologies, The Society of Data Miners, viewed 17 November 2017, <http://www.socdm.org/index.php/methodologies/21-methodologies-9-laws>.
+
+McCormick, K. 2007, CRISP-DM 2.0, viewed 17 November 2017, <http://keithmccormick.com/crisp-dm-20/>.
+
+Niaksu, O. 2015, 'CRISP Data Mining Methodology Extension for Medical Domain', Baltic Journal of Modern Computing, vol. 3, pp. 92–109.
+
+Piatetsky, G. 2014, 'CRISP-DM, still the top methodology for analytics, data mining, or data science projects', KD Nuggets, viewed 17 November 2017, <https://www.kdnuggets.com/2014/10/crisp-dm-top-methodology-analytics-data-mining-data-science-projects.html>.
+
+Saunders, N. 2016, Male satin bowerbird in his bower, viewed 18 November 2017, <https://www.flickr.com/photos/nsaunders/22748694318/>.
+
+
+### Ethics of Data and its Use
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/krysiab/6126773690/in/photolist-akpjn9-d2k7au-bsNjuC-WUQ9E5-iqCokx-hZ7qHj-bpQPP-7LamEj-S9gjcA-pGJSdS-hYcuBE-3upVT-o2GYvX-pN8qoz-nHr6oG-nHs1Ra-nXSYRJ-nZPNqf-nrN9Ci-nZVvVF-8DcczG-nHr6o1-nXSYUj-89hx6u-jYGNkj-bSPS8F-ZfAf7v-6m9v1N-8D95Ya-fQimPG-fQ1LoX-7NZJPM-fQ1Kox-o6xd3s-iQjKgp-nHs1G2-fvuET-nrMQsm-dnSqg7-96Vsjs-e98xBA-aePHni-yWn86z-bZ2Re-9F4eG2-7MYr8M-bvhsUp-nXSYtu-nHr9hA-iSbfTh" title="For me?"><img src="https://farm7.staticflickr.com/6189/6126773690_fab83a54f5_z.jpg" width="800" height="523.75" alt="For me?"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+Image: (Christine 2011)
+
+
+I wanted to look at the existing frameworks that focus on working with data. I am particularly interested in the different approaches people have proposed for working ethically with sensitive data. Sensitive data contains information about the individual that most people would not be comfortable sharing. Examples that come to mind are health records, police records and the ones I am specifically interested in, the records of children who were removed from their parents by Family and Community Services (FACS). The last example is particularly problematic because children, by definition, could never give consent to the release of this information. 
+
+I would like to postulate that there is another element that makes the data sensitive and that is the impact the information could have on the wellbeing of the people that are tasked to work with it. Often analysts do not have a background in the areas they are working, nor have they had any training in coping with the stories the data contains. This lack of support is unsurprising given that the bulk of the data currently being analysed will never tell a story that has a negative emotional impact. However, for those doing this vital work, thought should be given to how they receive protection from the individual accounts contained. Not doing so is failing in the duty of care for both the [individual]( http://managedhealthcareexecutive.modernmedicine.com/managed-healthcare-executive/news/clinical/clinical-pharmacology/health-affects-work-and-work-affect) (Lynch 2001) and the [workplace]( https://www.tinypulse.com/blog/negative-attitudes-affect-organizational-culture) (Reynolds 2016).
+
+Given that I could find no research that considered mental illness due to working with sensitive data, it is not surprising that I also failed to find best practices for working with the same data. Everything I discovered is focused at a much higher level, that of the ethics of gathering, storing, using and sharing data. Much of the work comes from the medical domain with a particular focus on sharing and the best ways to do it (Wilson et al. 2017; Riso et al. 2017; Kirilova & Karcher 2017). The key takeaway is that sharing is essential as it increases the utility of the research, but conversely, it also increases the risk of reidentification due to the accumulation of more and more.
+
+Lyons, Van & Lynn (2016) convincingly argue that embedding the values of good data practice based on the principles of justice at the heart of an organisation is key to reducing the risk of using information. I postulate that this creates an ongoing dialogue of ethics and its implementation establishes a culture of safety first. In the case the Red Cross and their web developers, Precedent, who by placing a single file on an unsecured web server [exposed the sexual history of 550,000 people]( http://www.smh.com.au/federal-politics/political-news/red-cross-data-leak-personal-data-of-550000-blood-donors-made-public-20161028-gscwms.html) (McIlroy, Hunter & Spooner 2016) it is clear that neither company understood or cared deeply about the privacy of their clients. The [report from Australian Information and Privacy Commissioner]( https://www.oaic.gov.au/media-and-speeches/statements/australian-red-cross-blood-service-data-breach) (Pilgrim 2017) lays out how the culture of both organisations caused multiple lapses that lead to the leak. Fortunately, in this case, the data was not released onto the internet due to the person finding it reporting it to authorities. 
+
+Developing an ethical lens is becoming more crucial to all of us being able to articulate what is meant by ethics. This ability to coherently bring a moral framework to an undertaking is an essential skill that data scientist must develop. Undertaking further study by enrolling in a [Data Science Ethics course](https://www.edx.org/course/data-science-ethics-michiganx-ds101x-1) (Jagadish 2016) is an excellent way to understand the fundamental concepts quickly. However, this view is not shared by many data scientist, which may explain the slew of stories about biased algorithms. Stories such as [Google tagging black people as Gorillas]( https://www.theguardian.com/technology/2015/jul/01/google-sorry-racist-auto-tag-photo-app) (Kasperkevic 2015) or [police using biased machine learning to predict criminal activity]( https://theconversation.com/why-big-data-analysis-of-police-activity-is-inherently-biased-72640) (Dixon & Isaac 2017). It seems that we can’t take the [human biases out of the machine]( https://www.theguardian.com/technology/2017/apr/13/ai-programs-exhibit-racist-and-sexist-biases-research-reveals). 
+
+
+#### Bibliography
+
+Christine 2011, For me?, viewed 19 November 2017, <https://www.flickr.com/photos/krysiab/6126773690/>.
+
+Dixon, A. & Isaac, W. 2017, 'Why big-data analysis of police activity is inherently biased', The Conversation, viewed 18 November 2017, <http://theconversation.com/why-big-data-analysis-of-police-activity-is-inherently-biased-72640>.
+
+Guszcza, J. & Richardson, B. 2014, 'Two dogmas of big data: Understanding the power of analytics for predicting human behavior', Deloitte Review, no. 15, 28 July, viewed 16 November 2017, <https://dupress.deloitte.com/dup-us-en/deloitte-review/issue-15/behavioral-data-driven-decision-making.html>.
+
+Jagadish, H.V. 2016, Data Science Ethics, MOOC, MichiganX, viewed 17 November 2017, <https://www.edx.org/course/data-science-ethics-michiganx-ds101x-1>.
+
+Kasperkevic, J. 2015, 'Google says sorry for racist auto-tag in photo app', The Guardian, 1 July, viewed 18 November 2017, <http://www.theguardian.com/technology/2015/jul/01/google-sorry-racist-auto-tag-photo-app>.
+
+Kirilova, D. & Karcher, S. 2017, 'Rethinking Data Sharing and Human Participant Protection in Social Science Research: Applications from the Qualitative Realm', Data Science Journal, vol. 16, no. 0, viewed 17 November 2017, <http://datascience.codata.org/articles/10.5334/dsj-2017-043/>.
+
+Lynch, W.D. 2001, 'Health affects work, and work affects health.', Business and health, vol. 19, no. 10, pp. 31–4, 37.
+
+Lyons, V., Van, D.W. & Lynn, T. 2016, 'Ethics as pacemaker: Regulating the heart of the privacy-trust relationship. A proposed conceptual model', ICIS 2016.
+
+McIlroy, T., Hunter, F. & Spooner, R. 2016, 'Red Cross data leak: personal data of 550,000 blood donors made public', The Sydney Morning Herald, 28 October, viewed 18 November 2017, <http://www.smh.com.au/federal-politics/political-news/red-cross-data-leak-personal-data-of-550000-blood-donors-made-public-20161028-gscwms.html>.
+
+Pilgrim, T. 2017, Australian Red Cross Blood Service data breach, Office of the Australian Information Commissioner (OAIC), viewed 18 November 2017, <https://www.oaic.gov.au/media-and-speeches/statements/australian-red-cross-blood-service-data-breach>.
+
+Reynolds, J. 2016, 'How One Person’s Negative Attitude Affects the Whole Work Culture', Employee Engagement & Company Culture Blog, viewed 18 November 2017, <https://www.tinypulse.com/blog/negative-attitudes-affect-organizational-culture>.
+
+Riso, B., Tupasela, A., Vears, D.F., Felzmann, H., Cockbain, J., Loi, M., Kongsholm, N.C.H., Zullo, S. & Rakic, V. 2017, 'Ethical sharing of health data in online platforms – which values should be considered?', Life Sciences, Society and Policy, vol. 13, no. 1, p. 12.
+
+Wilson, R., Butters, O., Avraam, D., Baker, J., Tedds, J., Turner, A., Murtagh, M. & Burton, P. 2017, 'DataSHIELD – New Directions and Dimensions', Data Science Journal, vol. 16, no. 0, viewed 17 November 2017, <http://datascience.codata.org/articles/10.5334/dsj-2017-021/>.
+
+
+### Navigating the Unknown
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/richardwc/2109138285/in/photolist-cwVV7-QVeZxE-Ks1ebA-Xo1vDT-NEs6KQ-K4LpGj-GA9gab-NutFFd-NX5y2K-MYYkjr-MYYjvn-NLJMhE-NLJJtU-NLJHcW-NLJFV7-MZes5b-NX5eNR-NX5dnV-NX5aMe-NX59gP-NX56y4-NX5bNH-NLJr9U-j8ycKg-NPgDVa-NLJq23-NLJnDh-NLJjZE-NX53Y4-NutskL-NLJmsj-NX53fa-NutEiy-MYYiGt-NLJKRy-MZepyj-xYnTxx-xYh7Zy-uuQSHy-sDjiCq-oB1ZW8-as56Ph-9PX2ch-8VyMGY-8Q4gek-7GNb95-4dnTkc-NX5wBv-NLJoJy-Nutr1S" title="Western Bower Bird"><img src="https://farm3.staticflickr.com/2348/2109138285_9310264707.jpg" width="800" height="534" alt="Western Bower Bird"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+Image: (Crook 2005)
+
+
+Given the lack of any research or discussions about the area I am interested in discussing makes it a little challenging to learn from others. There are not many times in life you get a chance to be the first to think about something. There is also the possibility that these thoughts are uninteresting, so they have never gone anywhere. Taking the optimistic view, I will assume the former until it becomes evident that the latter is true. With a lack of anything specific in my area of interest, I cast the net a bit a wider and looked at more general articles that I can use to inform my thinking.
+
+I found [this article](https://dupress.deloitte.com/dup-us-en/deloitte-review/issue-15/behavioral-data-driven-decision-making.html) from Guszcza & Richardson (2014) fascinating for the two points they made. The first is that they debunk the myth of needing big data to get big insights, instead, showing how working in analytically and in a disciplined manner with currently available normal data leads to results. Having just completed my work at the NSW Data Analytics Centre, I observed that almost all their work does not involve *Big Data* or anything close to it. However the work they do have real impacts and delivers actual outcomes that change people’s lives.
+
+The other point Guszcza & Richardson (2014) make is that social and behavioural data is highly predictive of many outcomes that are not at first glance obvious such as religious beliefs or pollical leanings. Using a device that is continually measuring features such as “people’s tones of voice, body language, and communication patterns” (Guszcza & Richardson 2014, p.172) can be used to predict such personal traits as dating behaviour and the outcomes from salary negotiations and other workplace outcomes. I wonder what would happen if the government started to want us to all wear these devices so that they could intervene early to help protect us from ourselves or others.
+
+Sivarajah et al. (2017) conducted a literature review of all the papers relating to [Big Data challenges and analytical methods](http://www.sciencedirect.com/science/article/pii/S014829631630488X) between 1996 to 2015. Their findings are interesting, mainly looking at the total number of papers published, which reflect the sharp rise in interest in big data since 2013.
+
+```{r echo=FALSE, fig.cap="Sivarajah et al. (2017) - Total number of papers published (from 1996 to 2015)"}
+knitr::include_graphics("Images/DataFutures/Rory/rory_36111_i1.png", dpi = NA)
+```
+
+The top four countries produced 486 papers and China accounted for 49% of those, with Australia providing 10%. Given the plethora of work coming from China and the US (79%), it is important to note how well Australia stands out as a percentage of the size of its population. Australia’ population is currently 24 Million, and even though the UK’s population is 275% larger, they produced an equivalent amount of papers. The figures are even more impressive when considering the size of the population of the US (1,345%) and China (5,742%) (World Bank 2016). 
+
+```{r echo=FALSE, fig.cap="Sivarajah et al. (2017) - Frequency of researchers from different geographical locations (from 1996 to 2015)"}
+knitr::include_graphics("Images/DataFutures/Rory/rory_36111_i2.png", dpi = NA)
+```
+
+The fact that 74% of the papers were either conceptual/descriptive/theoretical or analytical demonstrates that there is not much thinking occurring the space of application of techniques and the impacts of that. Developing my understanding of this area is what I am interested in exploring further. 
+
+```{r echo=FALSE, fig.cap="Sivarajah et al. (2017) - Classiﬁcation of research methods (from 1996 to 2015)"}
+knitr::include_graphics("Images/DataFutures/Rory/rory_36111_i3.png", dpi = NA)
+```
+
+
+#### Bibliography
+
+Crook, R. 2005, Western Bower Bird, viewed 18 November 2017, <https://www.flickr.com/photos/richardwc/2109138285/>.
+
+Guszcza, J. & Richardson, B. 2014, 'Two dogmas of big data: Understanding the power of analytics for predicting human behavior', Deloitte Review, no. 15, 28 July, viewed 16 November 2017, <https://dupress.deloitte.com/dup-us-en/deloitte-review/issue-15/behavioral-data-driven-decision-making.html>.
+
+Sivarajah, U., Kamal, M.M., Irani, Z. & Weerakkody, V. 2017, 'Critical analysis of Big Data challenges and analytical methods', Journal of Business Research, vol. 70, no. Supplement C, pp. 263–86.
+World Bank 2016, 'Total Population', The World Bank, viewed 19 November 2017, <https://data.worldbank.org/indicator/SP.POP.TOTL>.
+
+
+
+
+ 
+
+
 
 ## Tracy

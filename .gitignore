@@ -33,6 +33,11 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
+# Directory and files used to build the R markup document locally
 /*_book/*
 /*libs/*
 *.html
+.Rproj.user
+
+# File not is master repo - need to not upload it
+.Rbuildignore

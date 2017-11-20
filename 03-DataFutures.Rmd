@@ -378,15 +378,24 @@ The fact that 74% of the papers were either conceptual/descriptive/theoretical o
 knitr::include_graphics("Images/DataFutures/Rory/rory_36111_i3.png", dpi = NA)
 ```
 
+As an extension to the outcomes of working with highly sensitive data, Pentland (2014) has started to postulate what a future based on social data may look like. In his book, he theorises that humans are as [predictable as the trajectory of billiard balls](https://www.technologyreview.com/s/526561/the-limits-of-social-engineering/) (Carr 2014) if there is enough data, and of the correct kind, known about them. It is an interesting theory that aims to reduce human interactions and actions to a mathematical formula that can then be used to produce the maximum outcome for society by tweaking behaviour through social messaging and small payments.
+
 
 #### Bibliography
+
+Carr, N. 2014, 'The Limits of Big Data: A Review of Social Physics by Alex Pentland', MIT Technology Review, viewed 20 November 2017, <https://www.technologyreview.com/s/526561/the-limits-of-social-engineering/>.
 
 Crook, R. 2005, Western Bower Bird, viewed 18 November 2017, <https://www.flickr.com/photos/richardwc/2109138285/>.
 
 Guszcza, J. & Richardson, B. 2014, 'Two dogmas of big data: Understanding the power of analytics for predicting human behavior', Deloitte Review, no. 15, 28 July, viewed 16 November 2017, <https://dupress.deloitte.com/dup-us-en/deloitte-review/issue-15/behavioral-data-driven-decision-making.html>.
 
+Pentland, A. 2014, Social Physics: How Good Ideas Spread - The Lessons From A New Science, 1st edn, Scribe Publications.
+
 Sivarajah, U., Kamal, M.M., Irani, Z. & Weerakkody, V. 2017, 'Critical analysis of Big Data challenges and analytical methods', Journal of Business Research, vol. 70, no. Supplement C, pp. 263–86.
+
 World Bank 2016, 'Total Population', The World Bank, viewed 19 November 2017, <https://data.worldbank.org/indicator/SP.POP.TOTL>.
+
+
 
 
 

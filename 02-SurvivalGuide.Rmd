@@ -33,15 +33,15 @@ http://www.uts.edu.au/current-students/managing-your-course/your-enrolment/how-e
 ```{r echo=FALSE}
 knitr::include_graphics("Images/UTSOnline.png", dpi = NA)
 ```
-MDSI uses a variety of systems for online teaching and learning. UTSOnline https://online.uts.edu.au/ and CICAround https://ca.uts.edu.au are the two primary environments for you to familiarise yourself with. 
+MDSI uses a variety of systems for online teaching and learning. Canvas http://canvas.uts.edu.au/ and CICAround https://ca.uts.edu.au are the two primary environments for you to familiarise yourself with. 
 
-The first thing you need to do after activating your email address is to login to UTSOnline, access your subjects and find your subject outline. Your subject outline contains everything you need to know about your subject for the coming semester. It includes the contact information for your subject co-ordinator, important dates, assessment descriptions and much more. In most cases you can find the answer to any question you might have about your subject addressed in the subject outline.
+The first thing you need to do after activating your email address is to login to Canvas, access your subjects and find your subject outline. Your subject outline contains everything you need to know about your subject for the coming semester. It includes the contact information for your subject co-ordinator, important dates, assessment descriptions and much more. In most cases you can find the answer to any question you might have about your subject addressed in the subject outline.
 
 **Find your subject outlines in UTSOnline:**
  
- - Login to UTSOnline at https://online.uts.edu.au/ using your student ID number and the password you setup for your UTS email account.
+ - Login to Canvas at http://canvas.uts.edu.au/ using your student ID number and the password you setup for your UTS email account.
  - Access your subjects by clicking on your subject name
- - Download your subject outline by clicking on the link titled ‘Subject Outline’ in the left side menu, then click on the subject outline link on the page.
+ - Download your subject outline by clicking on it within the introductory materials for each subject. 
 
 ### Join the MDSI community:
 ```{r echo=FALSE}
